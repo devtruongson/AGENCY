@@ -230,6 +230,47 @@
     },
     "copyright": "© 2024 Prime Marketing Agency. All rights reserved."
   },
+  "faq": {
+    "badge": "Frequently Asked Questions",
+    "title": "Any questions? Check out the FAQs",
+    "subtitle": "Find answers to common questions about our Facebook advertising account rental services.",
+    "stillHaveQuestions": "Still have questions? We're here to help.",
+    "contactButton": "Contact Us",
+    "questions": [
+      {
+        "question": "How are your Facebook ad accounts different from regular accounts?",
+        "answer": "Our accounts have higher trust scores, verified metadata, and are optimized to bypass Meta's AI filters. This means fewer ad rejections, longer account lifespan, and better scalability for sensitive products."
+      },
+      {
+        "question": "How long does it take to receive an account after payment?",
+        "answer": "We deliver accounts within 30-60 minutes of payment confirmation. Our 24/7 support team will guide you through the setup process and answer any questions you have."
+      },
+      {
+        "question": "What happens if my account gets disabled?",
+        "answer": "We provide account replacement within minutes through our priority Telegram support. Unlike standard providers that take 24-48 hours, we ensure your campaigns keep running with minimal downtime."
+      },
+      {
+        "question": "What types of products can I run?",
+        "answer": "Our accounts are optimized for high-volume and sensitive niches including Nutra, Crypto, Gaming, and more. Our Premium accounts specifically handle hard-to-approve or heavily violating products with dedicated technical support."
+      },
+      {
+        "question": "Which tools are supported for account management?",
+        "answer": "We fully support popular anti-detect tools like AdsPower, GoLogin, along with VPS and Proxy solutions. Our team can help you set up the optimal environment for your operations."
+      },
+      {
+        "question": "How is the service fee calculated?",
+        "answer": "We use a tiered fee structure based on your monthly spend, ranging from 8.5% for $1k-$20k down to 2-4% for spend over $90k. The higher you spend, the lower the percentage, helping you save more as you scale."
+      },
+      {
+        "question": "Can I use my own ad accounts?",
+        "answer": "Yes! You can use your own pre-vetted infrastructure with $0 setup fee. If you use our accounts, there's a $40 setup fee per account plus 8% fee on total spend."
+      },
+      {
+        "question": "What's included with the free Blue Tick Fanpage?",
+        "answer": "Our Premium package ($1,500/mo) includes a verified Blue Tick Fanpage, which increases trust and conversion rates. This comes with unlimited campaigns, deep handling for sensitive products, and priority 1-on-1 support."
+      }
+    ]
+  },
   "testimonials": {
     "badge": "Client Reviews",
     "title": "Read what Others have to say",

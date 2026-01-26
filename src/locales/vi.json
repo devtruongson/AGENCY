@@ -230,6 +230,47 @@
     },
     "copyright": "© 2024 Prime Marketing Agency. Tất cả các quyền được bảo lưu."
   },
+  "faq": {
+    "badge": "Câu hỏi thường gặp",
+    "title": "Any questions? Check out the FAQs",
+    "subtitle": "Tìm câu trả lời cho các câu hỏi phổ biến về dịch vụ cho thuê tài khoản quảng cáo Facebook của chúng tôi.",
+    "stillHaveQuestions": "Vẫn có thắc mắc? Chúng tôi luôn sẵn sàng hỗ trợ bạn.",
+    "contactButton": "Liên hệ với chúng tôi",
+    "questions": [
+      {
+        "question": "Tài khoản quảng cáo Facebook của bạn khác gì so với tài khoản thông thường?",
+        "answer": "Tài khoản của chúng tôi có điểm tin cậy cao hơn, metadata đã được xác minh và được tối ưu hóa để vượt qua bộ lọc AI của Meta. Điều này có nghĩa là ít bị từ chối quảng cáo hơn, tuổi thọ tài khoản lâu hơn và khả năng mở rộng tốt hơn cho các sản phẩm nhạy cảm."
+      },
+      {
+        "question": "Mất bao lâu để nhận tài khoản sau khi thanh toán?",
+        "answer": "Chúng tôi giao tài khoản trong vòng 30-60 phút sau khi xác nhận thanh toán. Đội ngũ hỗ trợ 24/7 của chúng tôi sẽ hướng dẫn bạn qua quá trình thiết lập và trả lời mọi câu hỏi."
+      },
+      {
+        "question": "Điều gì xảy ra nếu tài khoản của tôi bị vô hiệu hóa?",
+        "answer": "Chúng tôi cung cấp dịch vụ thay thế tài khoản trong vài phút thông qua hỗ trợ Telegram ưu tiên. Không giống như các nhà cung cấp thông thường mất 24-48 giờ, chúng tôi đảm bảo chiến dịch của bạn tiếp tục chạy với thời gian chết tối thiểu."
+      },
+      {
+        "question": "Tôi có thể chạy loại sản phẩm nào?",
+        "answer": "Tài khoản của chúng tôi được tối ưu hóa cho các ngách có khối lượng lớn và nhạy cảm bao gồm Nutra, Crypto, Gaming, và nhiều hơn nữa. Tài khoản Cao cấp của chúng tôi đặc biệt xử lý các sản phẩm khó duyệt hoặc có vi phạm nặng với sự hỗ trợ kỹ thuật chuyên dụng."
+      },
+      {
+        "question": "Công cụ nào được hỗ trợ để quản lý tài khoản?",
+        "answer": "Chúng tôi hỗ trợ đầy đủ các công cụ anti-detect phổ biến như AdsPower, GoLogin, cùng với các giải pháp VPS và Proxy. Đội ngũ của chúng tôi có thể hỗ trợ bạn thiết lập môi trường tối ưu cho hoạt động của bạn."
+      },
+      {
+        "question": "Phí dịch vụ được tính như thế nào?",
+        "answer": "Chúng tôi sử dụng cấu trúc phí theo cấp dựa trên chi tiêu hàng tháng của bạn, từ 8.5% cho $1k-$20k xuống 2-4% cho chi tiêu trên $90k. Chi tiêu càng cao thì tỷ lệ phần trăm càng thấp, giúp bạn tiết kiệm nhiều hơn khi mở rộng quy mô."
+      },
+      {
+        "question": "Tôi có thể sử dụng tài khoản quảng cáo của chính mình không?",
+        "answer": "Có! Bạn có thể sử dụng cơ sở hạ tầng đã được kiểm tra của riêng mình với phí thiết lập $0. Nếu bạn sử dụng tài khoản của chúng tôi, có phí thiết lập $40 mỗi tài khoản cộng với 8% phí trên tổng chi tiêu."
+      },
+      {
+        "question": "Fanpage Tick Xanh miễn phí bao gồm những gì?",
+        "answer": "Gói Cao cấp của chúng tôi ($1,500/tháng) bao gồm Fanpage có dấu tích xanh được xác minh, giúp tăng độ tin cậy và tỷ lệ chuyển đổi. Điều này đi kèm với chiến dịch không giới hạn, xử lý chuyên sâu cho sản phẩm nhạy cảm và hỗ trợ ưu tiên 1-1."
+      }
+    ]
+  },
   "testimonials": {
     "badge": "Đánh giá khách hàng",
     "title": "Khách hàng nói gì về chúng tôi",

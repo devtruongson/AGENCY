@@ -12,6 +12,10 @@ export default function Header() {
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng)
+    // Update URL parameter
+    const url = new URL(window.location)
+    url.searchParams.set('lang', lng)
+    window.history.pushState({}, '', url)
   }
 
   return (
