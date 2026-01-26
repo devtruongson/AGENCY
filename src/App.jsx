@@ -6,6 +6,7 @@ import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Marketplace from "./components/Marketplace";
 import Pricing from "./components/Pricing";
 import ServiceFeeTiers from "./components/ServiceFeeTiers";
 import Testimonials from "./components/Testimonials";
@@ -18,6 +19,7 @@ function App() {
             <ComparisonCards />
             <ComparisonTable />
             <ServiceFeeTiers />
+            <Marketplace />
             <Pricing />
             <Testimonials />
             <FAQ />

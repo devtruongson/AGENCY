@@ -114,6 +114,148 @@
       }
     }
   },
+  "marketplace": {
+    "badge": "Sản phẩm & Dịch vụ",
+    "title": "Marketplace",
+    "subtitle": "Khám phá bộ sưu tập đầy đủ tài khoản, dịch vụ và công cụ Facebook Marketing chất lượng cao của chúng tôi.",
+    "orderNow": "Đặt hàng ngay",
+    "tabs": {
+      "accounts": "Tài khoản Ads",
+      "bm": "Business Manager",
+      "fanpage": "Fanpage",
+      "profiles": "Profile",
+      "verification": "Blue Tick"
+    },
+    "accounts": {
+      "items": [
+        {
+          "name": "FB Ads - Share Partner BM",
+          "description": "Tài khoản quảng cáo chia sẻ BM đối tác",
+          "options": [
+            { "limit": "Limit $250", "price": "$45-$65" },
+            { "limit": "Nolimit", "price": "$89" }
+          ]
+        },
+        {
+          "name": "FB Ads - Share Profile (King)",
+          "description": "Tài khoản quảng cáo chia sẻ Profile King",
+          "options": [
+            { "limit": "Limit $250", "price": "$183" },
+            { "limit": "Nolimit", "price": "$298" }
+          ]
+        }
+      ]
+    },
+    "bm": {
+      "packages": [
+        {
+          "name": "BM1",
+          "accounts": "1 tài khoản limit $50",
+          "price": "$13",
+          "features": ["1 Ad Account", "Limit $50/account", "Giao hàng nhanh"],
+          "highlighted": false
+        },
+        {
+          "name": "BM3",
+          "accounts": "3 tài khoản limit $50",
+          "price": "$21",
+          "features": ["3 Ad Accounts", "Limit $50/account", "Giao hàng nhanh"],
+          "highlighted": false
+        },
+        {
+          "name": "BM3",
+          "accounts": "3 tài khoản limit $250",
+          "price": "$156",
+          "features": ["3 Ad Accounts", "Limit $250/account", "Hỗ trợ ưu tiên"],
+          "highlighted": false
+        },
+        {
+          "name": "BM5",
+          "accounts": "5 tài khoản limit $250",
+          "price": "$298",
+          "features": ["5 Ad Accounts", "Limit $250/account", "Hỗ trợ ưu tiên", "Tặng Proxy"],
+          "highlighted": true
+        },
+        {
+          "name": "BM10",
+          "accounts": "10 tài khoản limit $250",
+          "price": "$412",
+          "features": ["10 Ad Accounts", "Limit $250/account", "24/7 Support", "Miễn phí thay thế"],
+          "highlighted": false
+        },
+        {
+          "name": "BM50",
+          "accounts": "45 tài khoản limit $250",
+          "price": "$2.5k-$3.2k",
+          "features": ["45 Ad Accounts", "Limit $250/account", "Dedicated Manager", "Giá tốt nhất"],
+          "highlighted": false
+        }
+      ]
+    },
+    "fanpage": {
+      "note": "📍 Tất cả các quốc gia có sẵn: US, UK, EU, v.v. Số lượng lớn 100-5000 trang luôn sẵn có",
+      "tiers": [
+        { "range": "1-100", "followers": "Followers", "price": "$26.8" },
+        { "range": "1k-5k", "followers": "Followers", "price": "$83" },
+        { "range": "5k-10k", "followers": "Followers", "price": "$129" },
+        { "range": "10k-100k+", "followers": "Followers", "price": "Liên hệ" }
+      ]
+    },
+    "profiles": {
+      "types": [
+        {
+          "name": "Profile Random Cũ",
+          "description": "Tạo từ 2023-2025",
+          "price": "$25",
+          "features": ["Random old account", "Tạo 2023-2025", "Chất lượng ổn định"]
+        },
+        {
+          "name": "Profile King 902",
+          "description": "2-3 line verification",
+          "price": "$39",
+          "features": ["902 King profile", "2-3 line verification", "Độ tin cậy cao"]
+        },
+        {
+          "name": "Profile Verified + ID",
+          "description": "Có tài liệu xác minh đầy đủ",
+          "price": "$59",
+          "features": ["Verified profile", "Document ID đầy đủ", "Bảo mật tối đa"]
+        },
+        {
+          "name": "Profile USA Super Old",
+          "description": "5-10 năm tuổi, 10-500 bạn bè",
+          "price": "$129",
+          "features": ["USA account", "5-10 years old", "10-500 friends", "Trust score cao nhất"]
+        }
+      ]
+    },
+    "verification": {
+      "note": "✓ Chấp nhận bất kỳ tên và avatar nào theo yêu cầu của bạn",
+      "blueTick": "Blue Tick Verification",
+      "services": [
+        {
+          "platform": "Fanpage",
+          "price": "$249",
+          "features": ["Tick xanh được xác minh", "Tên tùy chỉnh", "Avatar tùy chỉnh", "Giao trong 3-7 ngày"]
+        },
+        {
+          "platform": "Instagram",
+          "price": "$149",
+          "features": ["Tick xanh được xác minh", "Tên tùy chỉnh", "Giao trong 3-5 ngày"]
+        },
+        {
+          "platform": "WhatsApp Business",
+          "price": "$1,249",
+          "features": ["Tick xanh được xác minh", "Tên doanh nghiệp", "Giao trong 7-14 ngày", "Hỗ trợ setup"]
+        },
+        {
+          "platform": "FB Personal Profile",
+          "price": "$98",
+          "features": ["Tick xanh cá nhân", "Tên tùy chỉnh", "Giao trong 2-4 ngày"]
+        }
+      ]
+    }
+  },
   "pricing": {
     "badge": "Dịch vụ được quản lý",
     "title": "Gói quảng cáo chuyên nghiệp",

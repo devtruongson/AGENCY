@@ -114,6 +114,148 @@
       }
     }
   },
+  "marketplace": {
+    "badge": "Products & Services",
+    "title": "Marketplace",
+    "subtitle": "Explore our complete collection of premium Facebook Marketing accounts, services, and tools.",
+    "orderNow": "Order Now",
+    "tabs": {
+      "accounts": "Ad Accounts",
+      "bm": "Business Manager",
+      "fanpage": "Fanpages",
+      "profiles": "Profiles",
+      "verification": "Blue Tick"
+    },
+    "accounts": {
+      "items": [
+        {
+          "name": "FB Ads - Share Partner BM",
+          "description": "Ad account sharing partner BM",
+          "options": [
+            { "limit": "Limit $250", "price": "$45-$65" },
+            { "limit": "Nolimit", "price": "$89" }
+          ]
+        },
+        {
+          "name": "FB Ads - Share Profile (King)",
+          "description": "Ad account sharing King profile",
+          "options": [
+            { "limit": "Limit $250", "price": "$183" },
+            { "limit": "Nolimit", "price": "$298" }
+          ]
+        }
+      ]
+    },
+    "bm": {
+      "packages": [
+        {
+          "name": "BM1",
+          "accounts": "1 account limit $50",
+          "price": "$13",
+          "features": ["1 Ad Account", "Limit $50/account", "Fast delivery"],
+          "highlighted": false
+        },
+        {
+          "name": "BM3",
+          "accounts": "3 accounts limit $50",
+          "price": "$21",
+          "features": ["3 Ad Accounts", "Limit $50/account", "Fast delivery"],
+          "highlighted": false
+        },
+        {
+          "name": "BM3",
+          "accounts": "3 accounts limit $250",
+          "price": "$156",
+          "features": ["3 Ad Accounts", "Limit $250/account", "Priority support"],
+          "highlighted": false
+        },
+        {
+          "name": "BM5",
+          "accounts": "5 accounts limit $250",
+          "price": "$298",
+          "features": ["5 Ad Accounts", "Limit $250/account", "Priority support", "Free Proxy"],
+          "highlighted": true
+        },
+        {
+          "name": "BM10",
+          "accounts": "10 accounts limit $250",
+          "price": "$412",
+          "features": ["10 Ad Accounts", "Limit $250/account", "24/7 Support", "Free replacement"],
+          "highlighted": false
+        },
+        {
+          "name": "BM50",
+          "accounts": "45 accounts limit $250",
+          "price": "$2.5k-$3.2k",
+          "features": ["45 Ad Accounts", "Limit $250/account", "Dedicated Manager", "Best price"],
+          "highlighted": false
+        }
+      ]
+    },
+    "fanpage": {
+      "note": "📍 All countries available: US, UK, EU, etc. Large quantities of 100-5000 pages always in stock",
+      "tiers": [
+        { "range": "1-100", "followers": "Followers", "price": "$26.8" },
+        { "range": "1k-5k", "followers": "Followers", "price": "$83" },
+        { "range": "5k-10k", "followers": "Followers", "price": "$129" },
+        { "range": "10k-100k+", "followers": "Followers", "price": "Contact" }
+      ]
+    },
+    "profiles": {
+      "types": [
+        {
+          "name": "Random Old Profile",
+          "description": "Created 2023-2025",
+          "price": "$25",
+          "features": ["Random old account", "Created 2023-2025", "Stable quality"]
+        },
+        {
+          "name": "King Profile 902",
+          "description": "2-3 line verification",
+          "price": "$39",
+          "features": ["902 King profile", "2-3 line verification", "High trust"]
+        },
+        {
+          "name": "Verified Profile + ID",
+          "description": "Full verification documents",
+          "price": "$59",
+          "features": ["Verified profile", "Full ID documents", "Maximum security"]
+        },
+        {
+          "name": "USA Super Old Profile",
+          "description": "5-10 years old, 10-500 friends",
+          "price": "$129",
+          "features": ["USA account", "5-10 years old", "10-500 friends", "Highest trust score"]
+        }
+      ]
+    },
+    "verification": {
+      "note": "✓ Accept any name and avatar upon request",
+      "blueTick": "Blue Tick Verification",
+      "services": [
+        {
+          "platform": "Fanpage",
+          "price": "$249",
+          "features": ["Verified blue tick", "Custom name", "Custom avatar", "3-7 days delivery"]
+        },
+        {
+          "platform": "Instagram",
+          "price": "$149",
+          "features": ["Verified blue tick", "Custom name", "3-5 days delivery"]
+        },
+        {
+          "platform": "WhatsApp Business",
+          "price": "$1,249",
+          "features": ["Verified blue tick", "Business name", "7-14 days delivery", "Setup support"]
+        },
+        {
+          "platform": "FB Personal Profile",
+          "price": "$98",
+          "features": ["Personal blue tick", "Custom name", "2-4 days delivery"]
+        }
+      ]
+    }
+  },
   "pricing": {
     "badge": "Managed Services",
     "title": "Professional Ad Packages",
