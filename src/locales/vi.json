@@ -1,0 +1,294 @@
+{
+  "header": {
+    "services": "Dịch vụ",
+    "whyPrime": "Tại sao chọn Prime",
+    "pricing": "Bảng giá",
+    "contact": "Liên hệ",
+    "clientLogin": "Liên hệ"
+  },
+  "hero": {
+    "badge": "Cơ sở hạ tầng Meta cao cấp",
+    "title": "Mở rộng quy mô",
+    "titleHighlight": "Facebook Ads",
+    "titleEnd": "của bạn không giới hạn",
+    "subtitle": "Cho thuê tài khoản chuyên nghiệp, tài sản có độ tin cậy cao và quản lý quảng cáo toàn diện cho các đại lý và media buyer quy mô lớn.",
+    "viewPackages": "Xem tất cả gói dịch vụ",
+    "contactExpert": "Liên hệ chuyên gia"
+  },
+  "comparison": {
+    "competitionTitle": "Thực tế của đối thủ cạnh tranh",
+    "competitionItems": {
+      "rejected": {
+        "title": "Quảng cáo bị từ chối liên tục",
+        "desc": "AI phát hiện do dấu vết tài khoản có độ tin cậy thấp."
+      },
+      "disabled": {
+        "title": "Tài khoản bị vô hiệu hóa",
+        "desc": "Bị cấm đột ngột không có lý do trên BM thị trường thông thường."
+      },
+      "bans": {
+        "title": "Cấm sản phẩm nhạy cảm",
+        "desc": "Khó khăn trong việc mở rộng các ngách như Nutra, Crypto, hoặc Gaming."
+      }
+    },
+    "primeTitle": "Giải pháp của Prime",
+    "primeItems": {
+      "trust": {
+        "title": "Tài sản có điểm tin cậy cao",
+        "desc": "Metadata nội bộ đã xác minh vượt qua các bộ lọc AI tiêu chuẩn."
+      },
+      "recovery": {
+        "title": "Khôi phục BM ngay lập tức",
+        "desc": "Hỗ trợ cao cấp thay thế tài khoản trong vài phút, không phải vài ngày."
+      },
+      "scaling": {
+        "title": "Mở rộng mạnh mẽ",
+        "desc": "Tài khoản được tối ưu hóa đặc biệt cho các offer khối lượng lớn, nhạy cảm."
+      }
+    }
+  },
+  "comparisonTable": {
+    "badge": "Phân tích thị trường",
+    "title": "PRIME",
+    "titleVs": "vs",
+    "titleEnd": "Marketing thông thường",
+    "subtitle": "Tại sao các media buyer hàng đầu thế giới chọn cơ sở hạ tầng cao cấp của chúng tôi thay vì các lựa chọn thị trường tiêu chuẩn.",
+    "keyMetrics": "Chỉ số chính",
+    "primeMarketing": "Prime Marketing",
+    "standardMarket": "Thị trường tiêu chuẩn",
+    "longevity": {
+      "title": "Tuổi thọ tài khoản",
+      "desc": "Thời gian tồn tại trung bình trước khi checkpoint",
+      "prime": "6 - 12+ Tháng",
+      "standard": "2 - 4 Tuần"
+    },
+    "trustScore": {
+      "title": "Điểm tin cậy (Nội bộ)",
+      "desc": "Xếp hạng sức khỏe nội bộ của Meta",
+      "prime": "Ưu tú (9.8/10)",
+      "standard": "Thấp (4.2/10)"
+    },
+    "spending": {
+      "title": "Giới hạn chi tiêu hàng ngày",
+      "desc": "Khả năng mở rộng mạnh mẽ",
+      "prime": "Không giới hạn / $50k+",
+      "standard": "$50 - $250 / Ngày"
+    },
+    "support": {
+      "title": "Tốc độ hỗ trợ",
+      "desc": "Phản hồi Telegram & thay thế",
+      "prime": "< 15 Phút",
+      "standard": "24 - 48 Giờ"
+    }
+  },
+  "serviceFees": {
+    "badge": "Cấu trúc phí",
+    "title": "Bậc phí dịch vụ",
+    "delivery": "Giao hàng: 30-60 phút",
+    "support": "Hỗ trợ ưu tiên 24/7",
+    "tools": "Hỗ trợ: AdsPower, GoLogin, VPS, Proxy",
+    "tiers": {
+      "tier1": {
+        "name": "Bậc 1",
+        "range": "$1k - $20k",
+        "fee": "8.5%",
+        "label": "Chi tiêu hàng tháng"
+      },
+      "tier2": {
+        "name": "Bậc 2",
+        "range": "$20k - $50k",
+        "fee": "7.5%",
+        "label": "Chi tiêu hàng tháng"
+      },
+      "tier3": {
+        "name": "Bậc 3",
+        "range": "$50k - $90k",
+        "fee": "7%",
+        "label": "Chi tiêu hàng tháng"
+      },
+      "tier4": {
+        "name": "Bậc 4",
+        "range": "> $90k",
+        "fee": "2-4%",
+        "label": "Doanh nghiệp tùy chỉnh"
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Dịch vụ được quản lý",
+    "title": "Gói quảng cáo chuyên nghiệp",
+    "importantTitle": "Quan trọng: Phí quản lý không bao gồm chi phí tài khoản.",
+    "agencyAsset": "Sử dụng tài sản đại lý:",
+    "agencyAssetDesc": "$40 phí thiết lập mỗi tài khoản + 8% phí tổng chi tiêu.",
+    "clientAsset": "Sử dụng tài sản khách hàng:",
+    "clientAssetDesc": "$0 phí thiết lập nếu sử dụng cơ sở hạ tầng đã được kiểm tra của bạn.",
+    "packages": {
+      "single": {
+        "name": "Chiến dịch đơn lẻ",
+        "price": "Tùy chỉnh",
+        "features": {
+          "setup": "Thiết lập một lần",
+          "audit": "Kiểm toán sáng tạo",
+          "technical": "Thiết lập kỹ thuật"
+        },
+        "cta": "Nhận báo giá"
+      },
+      "basic": {
+        "name": "Gói cơ bản hàng tháng",
+        "price": "$100-$300",
+        "period": "/tháng",
+        "features": {
+          "campaigns": "Tối đa 5 chiến dịch / tháng",
+          "optimization": "Tối ưu hóa thường xuyên",
+          "reporting": "Báo cáo định kỳ",
+          "support": "Hỗ trợ qua email"
+        },
+        "cta": "Chọn gói cơ bản"
+      },
+      "advanced": {
+        "name": "Gói nâng cao hàng tháng",
+        "price": "$500-$800",
+        "period": "/tháng",
+        "features": {
+          "campaigns": "Tối đa 15 chiến dịch / tháng",
+          "monitoring": "Giám sát hàng ngày",
+          "telegram": "Truy cập nhóm Telegram",
+          "strategy": "Chiến lược mở rộng"
+        },
+        "cta": "Chọn gói nâng cao"
+      },
+      "premium": {
+        "name": "Gói cao cấp hàng tháng",
+        "price": "$1,500",
+        "period": "/tháng",
+        "features": {
+          "unlimited": "Không giới hạn số lượng chiến dịch",
+          "sensitive": "Xử lý chuyên sâu sản phẩm nhạy cảm",
+          "blueTick": "🎯 Miễn phí Fanpage Tick Xanh",
+          "priority": "Ưu tiên kỹ thuật & hỗ trợ cao cấp",
+          "support": "Hỗ trợ riêng 1-1 suốt quá trình"
+        },
+        "cta": "Mở rộng ngay"
+      }
+    },
+    "addonsTitle": "Tiện ích sáng tạo",
+    "addons": {
+      "image": {
+        "title": "Thiết kế hình ảnh quảng cáo",
+        "desc": "Hình ảnh đơn & carousel có CTR cao",
+        "price": "$8-$14",
+        "label": "Mỗi tài sản"
+      },
+      "video": {
+        "title": "Thiết kế video quảng cáo",
+        "desc": "Đồ họa chuyển động & chỉnh sửa theo phong cách UGC",
+        "price": "$15-$50",
+        "label": "Mỗi tài sản"
+      }
+    }
+  },
+  "contact": {
+    "badge": "Hãy kết nối",
+    "title": "Sẵn sàng mở rộng hoạt động quảng cáo của bạn?",
+    "subtitle": "Điền vào biểu mẫu để nói chuyện với chuyên gia cơ sở hạ tầng. Chúng tôi thường phản hồi trên Telegram trong vòng 15 phút trong giờ làm việc.",
+    "telegramSupport": "Hỗ trợ Telegram",
+    "whatsappBusiness": "WhatsApp Business",
+    "form": {
+      "fullName": "Họ và tên",
+      "fullNamePlaceholder": "Nguyễn Văn A",
+      "email": "Địa chỉ email",
+      "emailPlaceholder": "nguyen@agency.com",
+      "telegram": "Telegram Handle",
+      "telegramPlaceholder": "@username",
+      "service": "Dịch vụ quan tâm",
+      "serviceOptions": {
+        "managed": "Gói quảng cáo được quản lý",
+        "rentals": "Cho thuê tài khoản",
+        "marketplace": "Chợ tài sản",
+        "enterprise": "Giải pháp doanh nghiệp"
+      },
+      "submit": "Yêu cầu truy cập"
+    }
+  },
+  "footer": {
+    "description": "Đối tác cơ sở hạ tầng cao cấp cho các media buyer toàn cầu. Chúng tôi xây dựng hệ thống ổn định cho quảng cáo khối lượng lớn.",
+    "infrastructure": {
+      "title": "Cơ sở hạ tầng",
+      "rental": "Hệ sinh thái cho thuê",
+      "marketplace": "Chợ tài sản",
+      "scaling": "Mở rộng được quản lý"
+    },
+    "company": {
+      "title": "Công ty",
+      "about": "Về công nghệ của chúng tôi",
+      "support": "Liên hệ hỗ trợ"
+    },
+    "resources": {
+      "title": "Tài nguyên",
+      "terms": "Điều khoản sử dụng",
+      "privacy": "Trung tâm bảo mật"
+    },
+    "copyright": "© 2024 Prime Marketing Agency. Tất cả các quyền được bảo lưu."
+  },
+  "testimonials": {
+    "badge": "Đánh giá khách hàng",
+    "title": "Khách hàng nói gì về chúng tôi",
+    "subtitle": "Hàng trăm đại lý và media buyer tin tưởng hệ thống của chúng tôi để mở rộng quy mô chiến dịch của họ.",
+    "reviews": [
+      {
+        "name": "David Rodriguez",
+        "role": "Media Buyer",
+        "rating": 5,
+        "verified": true,
+        "text": "Trải nghiệm tuyệt vời! Đội ngũ phản hồi nhanh chóng và giúp chúng tôi tối ưu hóa chiến dịch hiệu quả."
+      },
+      {
+        "name": "Emma Thompson",
+        "role": "Chủ đại lý",
+        "rating": 5,
+        "verified": true,
+        "text": "Tài khoản đại lý tốt nhất mà tôi từng sử dụng. Không có cấm tài khoản, chi tiêu ổn định và hỗ trợ tuyệt vời 24/7."
+      },
+      {
+        "name": "James Wilson",
+        "role": "Performance Marketer",
+        "rating": 5,
+        "verified": true,
+        "text": "Chuyển từ tài khoản thông thường sang tài khoản đại lý cao cấp. ROI được cải thiện 40% nhờ không bị gián đoạn."
+      },
+      {
+        "name": "Olivia Martinez",
+        "role": "Startup Founder",
+        "rating": 5,
+        "verified": true,
+        "text": "Đội ngũ của họ đã giúp chúng tôi mở rộng từ $8k lên $500k chi tiêu hàng tháng mà không có vấn đề gì. Dịch vụ không thể tin được!"
+      },
+      {
+        "name": "Alexander Kim",
+        "role": "Affiliate Marketer",
+        "rating": 5,
+        "verified": true,
+        "text": "Chạy chiến dịch black hat chưa bao giờ dễ dàng đến thế. Tài khoản tuyệt vời, thay thế nhanh và hỗ trợ đáng tin cậy."
+      },
+      {
+        "name": "Isabella Brown",
+        "role": "Brand Manager",
+        "rating": 5,
+        "verified": true,
+        "text": "Chúng tôi đã làm việc với họ trong 2 năm. Chất lượng nhất quán và luôn sẵn sàng khi chúng tôi cần."
+      }
+    ]
+  },
+  "contactModal": {
+    "title": "Liên hệ chuyên gia",
+    "subtitle": "Hãy cho chúng tôi biết về dự án của bạn và chúng tôi sẽ kết nối bạn với chuyên gia phù hợp.",
+    "projectDesc": "Mô tả dự án",
+    "projectPlaceholder": "Mô tả ngắn gọn chi tiêu hàng tháng, ngách hiện tại và mục tiêu mở rộng cụ thể...",
+    "contactMethod": "Phương thức liên hệ ưu tiên",
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "handle": "Handle / ID",
+    "handlePlaceholder": "@username hoặc số điện thoại",
+    "submit": "Kết nối với chuyên gia"
+  }
+}

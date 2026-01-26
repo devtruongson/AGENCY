@@ -1,0 +1,294 @@
+{
+  "header": {
+    "services": "Services",
+    "whyPrime": "Why Prime",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "clientLogin": "Contact"
+  },
+  "hero": {
+    "badge": "Premium Meta Infrastructure",
+    "title": "Scale your",
+    "titleHighlight": "Facebook Ads",
+    "titleEnd": "without Limits",
+    "subtitle": "Professional account rentals, high-trust assets, and fully managed advertising for high-volume agencies and media buyers.",
+    "viewPackages": "View All Packages",
+    "contactExpert": "Contact Expert"
+  },
+  "comparison": {
+    "competitionTitle": "The Competition's Reality",
+    "competitionItems": {
+      "rejected": {
+        "title": "Ads Constantly Rejected",
+        "desc": "AI flags triggered by low-trust account fingerprints."
+      },
+      "disabled": {
+        "title": "Disabled Accounts",
+        "desc": "Sudden bans without explanation on standard market BMs."
+      },
+      "bans": {
+        "title": "Sensitive Product Bans",
+        "desc": "Difficulty scaling niches like Nutra, Crypto, or Gaming."
+      }
+    },
+    "primeTitle": "The Prime Solution",
+    "primeItems": {
+      "trust": {
+        "title": "High Trust Score Assets",
+        "desc": "Verified internal metadata that bypasses standard AI filters."
+      },
+      "recovery": {
+        "title": "Instant BM Recovery",
+        "desc": "Premium support that replaces accounts in minutes, not days."
+      },
+      "scaling": {
+        "title": "Aggressive Scaling",
+        "desc": "Accounts optimized specifically for high-volume, sensitive offers."
+      }
+    }
+  },
+  "comparisonTable": {
+    "badge": "Market Analysis",
+    "title": "PRIME",
+    "titleVs": "vs",
+    "titleEnd": "Regular Marketing",
+    "subtitle": "Why the world's top media buyers choose our premium infrastructure over standard market alternatives.",
+    "keyMetrics": "Key Metrics",
+    "primeMarketing": "Prime Marketing",
+    "standardMarket": "Standard Market",
+    "longevity": {
+      "title": "Account Longevity",
+      "desc": "Average survival before checkpoint",
+      "prime": "6 - 12+ Months",
+      "standard": "2 - 4 Weeks"
+    },
+    "trustScore": {
+      "title": "Trust Score (Internal)",
+      "desc": "Meta internal health rating",
+      "prime": "Elite (9.8/10)",
+      "standard": "Low (4.2/10)"
+    },
+    "spending": {
+      "title": "Daily Spending Limits",
+      "desc": "Ability to scale aggressively",
+      "prime": "Unlimited / $50k+",
+      "standard": "$50 - $250 / Day"
+    },
+    "support": {
+      "title": "Support Speed",
+      "desc": "Telegram response & replacement",
+      "prime": "< 15 Minutes",
+      "standard": "24 - 48 Hours"
+    }
+  },
+  "serviceFees": {
+    "badge": "Fee Structure",
+    "title": "Service Fee Tiers",
+    "delivery": "Delivery: 30-60m",
+    "support": "24/7 Priority Support",
+    "tools": "Support: AdsPower, GoLogin, VPS, Proxy",
+    "tiers": {
+      "tier1": {
+        "name": "Tier 1",
+        "range": "$1k - $20k",
+        "fee": "8.5%",
+        "label": "Monthly Spend"
+      },
+      "tier2": {
+        "name": "Tier 2",
+        "range": "$20k - $50k",
+        "fee": "7.5%",
+        "label": "Monthly Spend"
+      },
+      "tier3": {
+        "name": "Tier 3",
+        "range": "$50k - $90k",
+        "fee": "7%",
+        "label": "Monthly Spend"
+      },
+      "tier4": {
+        "name": "Tier 4",
+        "range": "> $90k",
+        "fee": "2-4%",
+        "label": "Custom Enterprise"
+      }
+    }
+  },
+  "pricing": {
+    "badge": "Managed Services",
+    "title": "Professional Ad Packages",
+    "importantTitle": "Important: Management fees exclude account costs.",
+    "agencyAsset": "Agency Asset Use:",
+    "agencyAssetDesc": "$40 setup fee per account + 8% total spend fee.",
+    "clientAsset": "Client Asset Use:",
+    "clientAssetDesc": "$0 setup fee if using your own pre-vetted infrastructure.",
+    "packages": {
+      "single": {
+        "name": "Single Campaign",
+        "price": "Custom",
+        "features": {
+          "setup": "One-off Setup",
+          "audit": "Creative Audit",
+          "technical": "Technical Setup"
+        },
+        "cta": "Get Quote"
+      },
+      "basic": {
+        "name": "Basic Monthly",
+        "price": "$100-$300",
+        "period": "/mo",
+        "features": {
+          "campaigns": "Up to 5 Campaigns / month",
+          "optimization": "Regular Optimization",
+          "reporting": "Periodic Reporting",
+          "support": "Email Support"
+        },
+        "cta": "Choose Basic"
+      },
+      "advanced": {
+        "name": "Advanced Monthly",
+        "price": "$500-$800",
+        "period": "/mo",
+        "features": {
+          "campaigns": "Up to 15 Campaigns / month",
+          "monitoring": "Daily Monitoring",
+          "telegram": "Telegram Group Access",
+          "strategy": "Scaling Strategy"
+        },
+        "cta": "Go Advanced"
+      },
+      "premium": {
+        "name": "Premium Monthly Package",
+        "price": "$1,500",
+        "period": "/mo",
+        "features": {
+          "unlimited": "Unlimited Campaigns",
+          "sensitive": "Deep handling for sensitive products",
+          "blueTick": "🎯 Free Blue Tick Fanpage",
+          "priority": "Priority technical & premium support",
+          "support": "Dedicated 1-on-1 support throughout"
+        },
+        "cta": "Scale Now"
+      }
+    },
+    "addonsTitle": "Creative Add-ons",
+    "addons": {
+      "image": {
+        "title": "Ad Image Design",
+        "desc": "High-CTR single images & carousels",
+        "price": "$8-$14",
+        "label": "Per Asset"
+      },
+      "video": {
+        "title": "Video Ad Design",
+        "desc": "Motion graphics & UGC style edits",
+        "price": "$15-$50",
+        "label": "Per Asset"
+      }
+    }
+  },
+  "contact": {
+    "badge": "Let's Connect",
+    "title": "Ready to Scale Your Ad Operations?",
+    "subtitle": "Fill out the form to speak with an infrastructure expert. We typically respond on Telegram within 15 minutes during business hours.",
+    "telegramSupport": "Telegram Support",
+    "whatsappBusiness": "WhatsApp Business",
+    "form": {
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "John Doe",
+      "email": "Email Address",
+      "emailPlaceholder": "john@agency.com",
+      "telegram": "Telegram Handle",
+      "telegramPlaceholder": "@username",
+      "service": "Service Interest",
+      "serviceOptions": {
+        "managed": "Managed Ad Packages",
+        "rentals": "Account Rentals",
+        "marketplace": "Asset Marketplace",
+        "enterprise": "Enterprise Solutions"
+      },
+      "submit": "Request Access"
+    }
+  },
+  "footer": {
+    "description": "The premier infrastructure partner for global media buyers. We build stable systems for high-volume advertising.",
+    "infrastructure": {
+      "title": "Infrastructure",
+      "rental": "Rental Ecosystem",
+      "marketplace": "Asset Marketplace",
+      "scaling": "Managed Scaling"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About Our Tech",
+      "support": "Contact Support"
+    },
+    "resources": {
+      "title": "Resources",
+      "terms": "Terms of Use",
+      "privacy": "Privacy Hub"
+    },
+    "copyright": "© 2024 Prime Marketing Agency. All rights reserved."
+  },
+  "testimonials": {
+    "badge": "Client Reviews",
+    "title": "Read what Others have to say",
+    "subtitle": "Hundreds of agencies and media buyers trust our infrastructure to scale their campaigns.",
+    "reviews": [
+      {
+        "name": "David Rodriguez",
+        "role": "Media Buyer",
+        "rating": 5,
+        "verified": true,
+        "text": "Outstanding experience! The team provides quick responses and helps us optimize our campaigns effectively."
+      },
+      {
+        "name": "Emma Thompson",
+        "role": "Agency Owner",
+        "rating": 5,
+        "verified": true,
+        "text": "Best agency accounts I've ever used. No more account bans, stable spending, and amazing support 24/7."
+      },
+      {
+        "name": "James Wilson",
+        "role": "Performance Marketer",
+        "rating": 5,
+        "verified": true,
+        "text": "Switched from regular accounts and never looked back. ROI improved by 40% thanks to premium agency accounts."
+      },
+      {
+        "name": "Olivia Martinez",
+        "role": "Startup Founder",
+        "rating": 5,
+        "verified": true,
+        "text": "Their team helped us scale from $8k to $500k monthly spend without any issues. Incredible service!"
+      },
+      {
+        "name": "Alexander Kim",
+        "role": "Affiliate Marketer",
+        "rating": 5,
+        "verified": true,
+        "text": "Running black hat campaigns was never this easy. Great accounts, fast replacements, and reliable support."
+      },
+      {
+        "name": "Isabella Brown",
+        "role": "Brand Manager",
+        "rating": 5,
+        "verified": true,
+        "text": "We've been working with them for 2 years now. Consistent quality and always available when we need help."
+      }
+    ]
+  },
+  "contactModal": {
+    "title": "Contact Expert",
+    "subtitle": "Tell us about your project and we'll match you with the right specialist.",
+    "projectDesc": "Project Description",
+    "projectPlaceholder": "Briefly describe your monthly spend, current niche, and specific scaling goals...",
+    "contactMethod": "Preferred Contact Method",
+    "telegram": "Telegram",
+    "whatsapp": "WhatsApp",
+    "handle": "Handle / ID",
+    "handlePlaceholder": "@username or phone number",
+    "submit": "Connect with Expert"
+  }
+}
