@@ -4,7 +4,6 @@ export default function Header() {
   const { t, i18n } = useTranslation()
 
   const languages = [
-    { code: 'vi', name: 'VI', flag: '🇻🇳' },
     { code: 'en', name: 'EN', flag: '🇺🇸' },
     { code: 'zh', name: '中文', flag: '🇨🇳' },
     { code: 'ru', name: 'RU', flag: '🇷🇺' },

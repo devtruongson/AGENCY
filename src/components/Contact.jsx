@@ -21,25 +21,27 @@ export default function Contact() {
               {t('contact.subtitle')}
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-              <a className="flex items-center gap-5 group" href="#">
+              <a className="flex items-center gap-5 group" href="https://web.telegram.org/k/#@Prime_MarketingPro" target='_blank'>
                 <div className="w-14 h-14 rounded-full bg-[#229ED9]/10 flex items-center justify-center text-[#229ED9] group-hover:bg-[#229ED9] group-hover:text-white transition-all">
                   <span className="material-symbols-outlined">send</span>
                 </div>
                 <div>
                   <p className="text-white font-bold">{t('contact.telegramSupport')}</p>
                   <p className="text-text-secondary text-sm">
-                    @PrimeMarketing_Ops
+                    @Prime_MarketingPro
                   </p>
                 </div>
               </a>
-              <a className="flex items-center gap-5 group" href="#">
+              <a className="flex items-center gap-5 group" href="https://wa.me/84967682097"
+  target="_blank"
+  rel="noopener noreferrer">
                 <div className="w-14 h-14 rounded-full bg-[#25D366]/10 flex items-center justify-center text-[#25D366] group-hover:bg-[#25D366] group-hover:text-white transition-all">
                   <span className="material-symbols-outlined">chat_bubble</span>
                 </div>
                 <div>
                   <p className="text-white font-bold">{t('contact.whatsappBusiness')}</p>
                   <p className="text-text-secondary text-sm">
-                    +1 (888) PRIME-ADS
+                    +84967682097
                   </p>
                 </div>
               </a>
