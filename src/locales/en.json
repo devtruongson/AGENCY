@@ -1,10 +1,62 @@
 {
   "header": {
     "services": "Services",
+    "servicesDropdown": {
+      "ads": "Ads Infrastructure",
+      "design": "Graphic Design"
+    },
     "whyPrime": "Why Prime",
     "pricing": "Pricing",
     "contact": "Contact",
     "clientLogin": "Contact"
+  },
+  "designServices": {
+    "badge": "Creative Solutions",
+    "title": "Graphic Design Services",
+    "subtitle": "Professional design services to elevate your brand identity.",
+    "whyChooseUs": {
+      "title": "WHY CHOOSE US?",
+      "desc": "We don’t just create designs; we help shape your brand’s identity with purpose. Our designs blend style, intent, and creativity, ensuring that your brand stands out and connects with your audience."
+    },
+    "benefits": {
+      "title": "BENEFITS OF OUR SERVICES",
+      "items": [
+        {
+          "title": "Increase Site Traffic & Ranking",
+          "desc": "Our designs help boost your online visibility."
+        },
+        {
+          "title": "High Authority",
+          "desc": "We create powerful graphics that build your brand’s credibility."
+        },
+        {
+          "title": "High SERP Rank",
+          "desc": "Our backlinks will improve your search engine ranking."
+        },
+        {
+          "title": "Detailed Reports",
+          "desc": "We provide detailed reports with quick, efficient delivery."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "OUR GRAPHIC DESIGN SERVICES & PRICES",
+      "items": [
+        { "name": "✨ Logo Design", "price": "$15" },
+        { "name": "Mascot/Esport Logo", "price": "$35" },
+        { "name": "Banner Design", "price": "$15" },
+        { "name": "BHW Sale Thread", "price": "$65" },
+        { "name": "YouTube Cover", "price": "$20" },
+        { "name": "YouTube Thumbnail", "price": "$15" },
+        { "name": "Social Media Post", "price": "$15" },
+        { "name": "Infographic", "price": "$30" },
+        { "name": "Flyer Design", "price": "$30" },
+        { "name": "️ Photoshop Editing", "price": "$15" },
+        { "name": "Vector Design", "price": "$15" },
+        { "name": "Illustration", "price": "$25" },
+        { "name": "Character Design", "price": "$15" }
+      ]
+    }
   },
   "hero": {
     "badge": "Premium Meta Infrastructure",

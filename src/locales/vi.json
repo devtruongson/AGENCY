@@ -1,10 +1,62 @@
 {
   "header": {
     "services": "Dịch vụ",
+    "servicesDropdown": {
+      "ads": "Hạ tầng Quảng cáo",
+      "design": "Thiết kế Đồ họa"
+    },
     "whyPrime": "Tại sao chọn Prime",
     "pricing": "Bảng giá",
     "contact": "Liên hệ",
     "clientLogin": "Liên hệ"
+  },
+  "designServices": {
+    "badge": "Giải pháp Sáng tạo",
+    "title": "Dịch vụ Thiết kế Đồ họa",
+    "subtitle": "Dịch vụ thiết kế chuyên nghiệp giúp nâng tầm nhận diện thương hiệu của bạn.",
+    "whyChooseUs": {
+      "title": "TẠI SAO CHỌN CHÚNG TÔI?",
+      "desc": "Chúng tôi không chỉ tạo ra các thiết kế; chúng tôi giúp định hình bản sắc thương hiệu của bạn có mục đích. Các thiết kế của chúng tôi kết hợp phong cách, ý định và sự sáng tạo, đảm bảo rằng thương hiệu của bạn nổi bật và kết nối với khán giả."
+    },
+    "benefits": {
+      "title": "LỢI ÍCH DỊCH VỤ",
+      "items": [
+        {
+          "title": "Tăng Lưu lượng & Xếp hạng",
+          "desc": "Thiết kế của chúng tôi giúp tăng cường khả năng hiển thị trực tuyến của bạn."
+        },
+        {
+          "title": "Uy tín Cao",
+          "desc": "Chúng tôi tạo ra đồ họa mạnh mẽ xây dựng độ tin cậy cho thương hiệu của bạn."
+        },
+        {
+          "title": "Xếp hạng SERP Cao",
+          "desc": "Các backlink của chúng tôi sẽ cải thiện thứ hạng công cụ tìm kiếm của bạn."
+        },
+        {
+          "title": "Báo cáo Chi tiết",
+          "desc": "Chúng tôi cung cấp báo cáo chi tiết với việc giao hàng nhanh chóng, hiệu quả."
+        }
+      ]
+    },
+    "pricing": {
+      "title": "DỊCH VỤ & BẢNG GIÁ THIẾT KẾ",
+      "items": [
+        { "name": "✨ Thiết kế Logo", "price": "$15" },
+        { "name": "Logo Mascot/Esport", "price": "$35" },
+        { "name": "Thiết kế Banner", "price": "$15" },
+        { "name": "BHW Sale Thread", "price": "$65" },
+        { "name": "YouTube Cover", "price": "$20" },
+        { "name": "YouTube Thumbnail", "price": "$15" },
+        { "name": "Social Media Post", "price": "$15" },
+        { "name": "Infographic", "price": "$30" },
+        { "name": "Thiết kế Tờ rơi", "price": "$30" },
+        { "name": "️ Chỉnh sửa Photoshop", "price": "$15" },
+        { "name": "Thiết kế Vector", "price": "$15" },
+        { "name": "Minh họa (Illustration)", "price": "$25" },
+        { "name": "Thiết kế Nhân vật", "price": "$15" }
+      ]
+    }
   },
   "hero": {
     "badge": "Cơ sở hạ tầng Meta cao cấp",

@@ -11,6 +11,8 @@ import Pricing from "./components/Pricing";
 import ServiceFeeTiers from "./components/ServiceFeeTiers";
 import Testimonials from "./components/Testimonials";
 
+import DesignServices from "./components/DesignServices";
+
 function App() {
     return (
         <div className="flex flex-col min-h-screen">
@@ -21,6 +23,7 @@ function App() {
             <ServiceFeeTiers />
             <Marketplace />
             <Pricing />
+            <DesignServices />
             <Testimonials />
             <FAQ />
             <Contact />

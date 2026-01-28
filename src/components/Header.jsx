@@ -28,12 +28,34 @@ export default function Header() {
         </div>
         <div className="hidden md:flex flex-1 justify-end gap-10 items-center">
           <div className="flex items-center gap-9">
-            <a
-              className="text-white/80 text-sm font-semibold hover:text-primary transition-colors"
-              href="#services"
-            >
-              {t('header.services')}
-            </a>
+            {/* Services Dropdown */}
+            <div className="relative group">
+              <button
+                className="text-white/80 text-sm font-semibold hover:text-primary transition-colors flex items-center gap-1 py-4"
+              >
+                {t('header.services')}
+                <span className="material-symbols-outlined text-sm transition-transform group-hover:rotate-180">expand_more</span>
+              </button>
+              
+              {/* Dropdown Menu */}
+              <div className="absolute top-full left-0 pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                <div className="bg-surface-dark border border-border-dark rounded-xl p-2 w-56 shadow-xl flex flex-col gap-1">
+                    <a
+                      className="text-text-secondary text-sm font-medium px-4 py-3 rounded-lg hover:bg-white/5 hover:text-white transition-colors text-left"
+                      href="#services"
+                    >
+                      {t('header.servicesDropdown.ads')}
+                    </a>
+                    <a
+                      className="text-text-secondary text-sm font-medium px-4 py-3 rounded-lg hover:bg-white/5 hover:text-white transition-colors text-left"
+                      href="#design-services"
+                    >
+                      {t('header.servicesDropdown.design')}
+                    </a>
+                </div>
+              </div>
+            </div>
+
             <a
               className="text-white/80 text-sm font-semibold hover:text-primary transition-colors"
               href="#comparison"

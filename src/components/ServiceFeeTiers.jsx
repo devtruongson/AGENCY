@@ -6,7 +6,7 @@ export default function ServiceFeeTiers() {
   const tiers = ['tier1', 'tier2', 'tier3', 'tier4']
 
   return (
-    <section className="py-24 md:py-40 px-6 md:px-12 bg-surface-dark/30 border-y border-border-dark">
+    <section className="py-24 md:py-40 px-6 md:px-12 bg-surface-dark/30 border-y border-border-dark" id="services">
       <div className="max-w-[1440px] mx-auto">
         <div className="text-center mb-20">
           <span className="text-primary font-bold tracking-[0.2em] uppercase mb-4 block">
