@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import logo from '../assets/transpent.png'
 
 export default function Header() {
   const { t, i18n } = useTranslation()
@@ -22,24 +23,7 @@ export default function Header() {
       <div className="px-6 md:px-12 py-5 max-w-[1440px] mx-auto flex items-center justify-between">
         <div className="flex items-center gap-3">
           <div className="flex items-center gap-2.5">
-            <div className="relative w-10 h-10 flex items-center justify-center">
-              <svg
-                className="w-full h-full text-primary"
-                fill="currentColor"
-                viewBox="0 0 100 100"
-              >
-                <path d="M20 10 L80 10 L80 40 L50 40 L50 60 L20 60 Z"></path>
-                <path d="M20 65 L20 90 L50 65 Z"></path>
-              </svg>
-            </div>
-            <div className="flex flex-col -space-y-1">
-              <span className="text-primary text-2xl logo-font-prime uppercase leading-none">
-                Prime
-              </span>
-              <span className="text-secondary-blue text-[10px] logo-font-marketing uppercase font-bold tracking-[0.35em] leading-none">
-                Marketing
-              </span>
-            </div>
+            <img src={logo} alt="Prime Marketing" className="h-16 md:h-20 w-auto object-contain" />
           </div>
         </div>
         <div className="hidden md:flex flex-1 justify-end gap-10 items-center">

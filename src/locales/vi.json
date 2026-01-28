@@ -259,11 +259,11 @@
   "pricing": {
     "badge": "Dịch vụ được quản lý",
     "title": "Gói quảng cáo chuyên nghiệp",
-    "importantTitle": "Quan trọng: Phí quản lý không bao gồm chi phí tài khoản.",
-    "agencyAsset": "Sử dụng tài sản đại lý:",
-    "agencyAssetDesc": "$40 phí thiết lập mỗi tài khoản + 8% phí tổng chi tiêu.",
-    "clientAsset": "Sử dụng tài sản khách hàng:",
-    "clientAssetDesc": "$0 phí thiết lập nếu sử dụng cơ sở hạ tầng đã được kiểm tra của bạn.",
+    "importantTitle": "Dịch vụ chạy quảng cáo theo yêu cầu",
+    "agencyAsset": "Đối tượng:",
+    "agencyAssetDesc": "Dành cho các sản phẩm bị từ chối và không phê duyệt.",
+    "clientAsset": "Cam kết:",
+    "clientAssetDesc": "Đảm bảo tài khoản được phê duyệt sau 24 giờ.",
     "packages": {
       "single": {
         "name": "Chiến dịch đơn lẻ",
@@ -335,6 +335,7 @@
     "subtitle": "Điền vào biểu mẫu để nói chuyện với chuyên gia cơ sở hạ tầng. Chúng tôi thường phản hồi trên Telegram trong vòng 15 phút trong giờ làm việc.",
     "telegramSupport": "Telegram",
     "whatsappBusiness": "WhatsApp Business",
+    "emailSupport": "Hỗ trợ qua Email",
     "form": {
       "fullName": "Họ và tên",
       "fullNamePlaceholder": "Nguyễn Văn A",

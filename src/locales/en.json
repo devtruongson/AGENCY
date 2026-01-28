@@ -259,11 +259,11 @@
   "pricing": {
     "badge": "Managed Services",
     "title": "Professional Ad Packages",
-    "importantTitle": "Important: Management fees exclude account costs.",
-    "agencyAsset": "Agency Asset Use:",
-    "agencyAssetDesc": "$40 setup fee per account + 8% total spend fee.",
-    "clientAsset": "Client Asset Use:",
-    "clientAssetDesc": "$0 setup fee if using your own pre-vetted infrastructure.",
+    "importantTitle": "On-Demand Advertising Service",
+    "agencyAsset": "Target:",
+    "agencyAssetDesc": "For products that are rejected or disapproved.",
+    "clientAsset": "Guarantee:",
+    "clientAssetDesc": "Approval guaranteed within 24 hours.",
     "packages": {
       "single": {
         "name": "Single Campaign",
@@ -335,6 +335,7 @@
     "subtitle": "Fill out the form to speak with an infrastructure expert. We typically respond on Telegram within 15 minutes during business hours.",
     "telegramSupport": "Telegram",
     "whatsappBusiness": "WhatsApp Business",
+    "emailSupport": "Email Support",
     "form": {
       "fullName": "Full Name",
       "fullNamePlaceholder": "John Doe",

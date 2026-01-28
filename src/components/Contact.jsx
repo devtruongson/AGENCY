@@ -21,7 +21,7 @@ export default function Contact() {
               {t('contact.subtitle')}
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-              <a className="flex items-center gap-5 group" href="https://web.telegram.org/k/#@Prime_MarketingPro" target='_blank'>
+              <a className="flex items-center gap-5 group" href="https://t.me/Prime_MarketingPro" target='_blank'>
                 <div className="w-14 h-14 rounded-full bg-[#229ED9]/10 flex items-center justify-center text-[#229ED9] group-hover:bg-[#229ED9] group-hover:text-white transition-all">
                   <span className="material-symbols-outlined">send</span>
                 </div>
@@ -45,10 +45,21 @@ export default function Contact() {
                   </p>
                 </div>
               </a>
+              <a className="flex items-center gap-5 group" href="mailto:Helloagen1@gmail.com">
+                <div className="w-14 h-14 rounded-full bg-[#EA4335]/10 flex items-center justify-center text-[#EA4335] group-hover:bg-[#EA4335] group-hover:text-white transition-all">
+                  <span className="material-symbols-outlined">mail</span>
+                </div>
+                <div>
+                  <p className="text-white font-bold">{t('contact.emailSupport')}</p>
+                  <p className="text-text-secondary text-sm">
+                    Helloagen1@gmail.com
+                  </p>
+                </div>
+              </a>
             </div>
           </div>
           <div className="bg-background-dark p-8 md:p-12 rounded-[2.5rem] border border-border-dark shadow-2xl">
-            <form className="space-y-6">
+            <form className="space-y-6" action="mailto:Helloagen1@gmail.com" method="post" encType="text/plain">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label className="text-sm font-bold text-text-secondary uppercase tracking-wider">

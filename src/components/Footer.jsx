@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next'
+import logo from '../assets/transpent.png'
 
 export default function Footer() {
   const { t } = useTranslation()
@@ -9,23 +10,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-24">
           <div className="flex flex-col gap-8">
             <div className="flex items-center gap-3">
-              <div className="relative w-10 h-10 flex items-center justify-center">
-                <svg
-                  className="w-full h-full text-primary"
-                  fill="currentColor"
-                  viewBox="0 0 100 100"
-                >
-                  <path d="M20 10 L80 10 L80 40 L50 40 L50 60 L20 60 Z"></path>
-                  <path d="M20 65 L20 90 L50 65 Z"></path>
-                </svg>
-              </div>
-              <div className="flex flex-col -space-y-1">
-                <span className="text-primary text-2xl logo-font-prime uppercase leading-none">
-                  Prime
-                </span>
-                <span className="text-secondary-blue text-[10px] logo-font-marketing uppercase font-bold tracking-[0.35em] leading-none">
-                  Marketing
-                </span>
+              <div className="relative w-full max-w-[280px] flex items-center">
+                 <img src={logo} alt="Prime Marketing" className="w-full h-auto object-contain" />
               </div>
             </div>
             <p className="text-text-secondary text-base leading-relaxed max-w-xs">
