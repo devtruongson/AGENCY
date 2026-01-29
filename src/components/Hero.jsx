@@ -42,15 +42,14 @@ export default function Hero() {
             </div>
           </div>
           <div className="flex-1 w-full mt-12 lg:mt-0">
-            <div className="relative w-full aspect-video bg-surface-dark rounded-3xl border border-border-dark overflow-hidden shadow-[0_0_100px_rgba(255,149,0,0.1)]">
+            <div className="relative w-full aspect-video">
               <div
-                className="absolute inset-0 bg-cover bg-center opacity-70"
+                className="absolute inset-0 bg-contain bg-center bg-no-repeat scale-[1.2]"
                 style={{
                   backgroundImage:
-                    'url("https://lh3.googleusercontent.com/aida-public/AB6AXuDgzp6MfqfV8VjzOj_qhO0YuT6bbA0os66jV7v56K89j2QhJ3jbV-3MvyLP3z-t_p-YXrU08xvA9fs21_JjtoN9j_SLB6ORR2oe20KRAhgaoANparSFRWClp6-x-F2u7gPvwia0Xhi2n6z1UGcVYT9CRmUDU8FpPx0Hh7end75ymQHzxzTmxYQBGYawCSWop4maVbSOa1x3YVocBxB22g6V46nG_wT6QsMq3Pa4oX-FT3FEVQoZEume2Hk_GCTGfSG1RKcv2NYkyrmn")',
+                    'url("/banner.png")',
                 }}
               ></div>
-              <div className="absolute inset-0 bg-gradient-to-t from-background-dark via-transparent to-transparent"></div>
             </div>
           </div>
         </div>

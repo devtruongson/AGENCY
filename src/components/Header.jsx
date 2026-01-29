@@ -42,9 +42,15 @@ export default function Header() {
                 <div className="bg-surface-dark border border-border-dark rounded-xl p-2 w-56 shadow-xl flex flex-col gap-1">
                     <a
                       className="text-text-secondary text-sm font-medium px-4 py-3 rounded-lg hover:bg-white/5 hover:text-white transition-colors text-left"
-                      href="#services"
+                      href="#marketplace"
                     >
-                      {t('header.servicesDropdown.ads')}
+                      {t('header.servicesDropdown.rent')}
+                    </a>
+                    <a
+                      className="text-text-secondary text-sm font-medium px-4 py-3 rounded-lg hover:bg-white/5 hover:text-white transition-colors text-left"
+                      href="#pricing"
+                    >
+                      {t('header.servicesDropdown.campaigns')}
                     </a>
                     <a
                       className="text-text-secondary text-sm font-medium px-4 py-3 rounded-lg hover:bg-white/5 hover:text-white transition-colors text-left"

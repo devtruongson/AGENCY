@@ -2,8 +2,9 @@
   "header": {
     "services": "Services",
     "servicesDropdown": {
-      "ads": "Ads Infrastructure",
-      "design": "Graphic Design"
+      "rent": "Rent / Sell Accounts",
+      "campaigns": "Create Campaigns",
+      "design": "Design Services"
     },
     "whyPrime": "Why Prime",
     "pricing": "Pricing",

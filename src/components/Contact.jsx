@@ -1,7 +1,59 @@
+import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 
 export default function Contact() {
   const { t } = useTranslation()
+  const [formData, setFormData] = useState({
+    fullName: '',
+    email: '',
+    telegram: '',
+    service: 'Managed Ad Packages'
+  })
+  const [loading, setLoading] = useState(false)
+  const [status, setStatus] = useState(null)
+
+  const handleChange = (e) => {
+    const { name, value } = e.target
+    setFormData(prev => ({ ...prev, [name]: value }))
+  }
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    setLoading(true)
+    setStatus(null)
+
+    try {
+      const response = await fetch('https://publish-mail.fstack.io.vn/send-mail', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          to: "Helloagen1@gmail.com",
+          subject: `New Contact Request from ${formData.fullName}`,
+          html: `
+            <h3>New Contact Request</h3>
+            <p><strong>Name:</strong> ${formData.fullName}</p>
+            <p><strong>Email:</strong> ${formData.email}</p>
+            <p><strong>Telegram:</strong> ${formData.telegram}</p>
+            <p><strong>Service:</strong> ${formData.service}</p>
+          `
+        }),
+      })
+
+      if (response.ok) {
+        setStatus({ type: 'success', message: 'Message sent successfully! We will contact you shortly.' })
+        setFormData({ fullName: '', email: '', telegram: '', service: 'Managed Ad Packages' })
+      } else {
+        setStatus({ type: 'error', message: 'Failed to send message. Please try again later.' })
+      }
+    } catch (error) {
+      console.error('Error sending email:', error)
+      setStatus({ type: 'error', message: 'An error occurred. Please check your connection and try again.' })
+    } finally {
+      setLoading(false)
+    }
+  }
 
   return (
     <section
@@ -59,16 +111,20 @@ export default function Contact() {
             </div>
           </div>
           <div className="bg-background-dark p-8 md:p-12 rounded-[2.5rem] border border-border-dark shadow-2xl">
-            <form className="space-y-6" action="mailto:Helloagen1@gmail.com" method="post" encType="text/plain">
+            <form className="space-y-6" onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label className="text-sm font-bold text-text-secondary uppercase tracking-wider">
                     {t('contact.form.fullName')}
                   </label>
                   <input
+                    name="fullName"
+                    value={formData.fullName}
+                    onChange={handleChange}
                     className="w-full bg-surface-dark border-border-dark rounded-xl px-5 py-4 text-white focus:border-primary focus:ring-1 focus:ring-primary transition-all"
                     placeholder={t('contact.form.fullNamePlaceholder')}
                     type="text"
+                    required
                   />
                 </div>
                 <div className="space-y-2">
@@ -76,9 +132,13 @@ export default function Contact() {
                     {t('contact.form.email')}
                   </label>
                   <input
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
                     className="w-full bg-surface-dark border-border-dark rounded-xl px-5 py-4 text-white focus:border-primary focus:ring-1 focus:ring-primary transition-all"
                     placeholder={t('contact.form.emailPlaceholder')}
                     type="email"
+                    required
                   />
                 </div>
               </div>
@@ -88,28 +148,54 @@ export default function Contact() {
                     {t('contact.form.telegram')}
                   </label>
                   <input
+                    name="telegram"
+                    value={formData.telegram}
+                    onChange={handleChange}
                     className="w-full bg-surface-dark border-border-dark rounded-xl px-5 py-4 text-white focus:border-primary focus:ring-1 focus:ring-primary transition-all"
                     placeholder={t('contact.form.telegramPlaceholder')}
                     type="text"
+                    required
                   />
                 </div>
                 <div className="space-y-2">
                   <label className="text-sm font-bold text-text-secondary uppercase tracking-wider">
                     {t('contact.form.service')}
                   </label>
-                  <select className="w-full bg-surface-dark border-border-dark rounded-xl px-5 py-4 text-white focus:border-primary focus:ring-1 focus:ring-primary transition-all">
-                    <option>{t('contact.form.serviceOptions.managed')}</option>
-                    <option>{t('contact.form.serviceOptions.rentals')}</option>
-                    <option>{t('contact.form.serviceOptions.marketplace')}</option>
-                    <option>{t('contact.form.serviceOptions.enterprise')}</option>
+                  <select 
+                    name="service"
+                    value={formData.service}
+                    onChange={handleChange}
+                    className="w-full bg-surface-dark border-border-dark rounded-xl px-5 py-4 text-white focus:border-primary focus:ring-1 focus:ring-primary transition-all"
+                  >
+                    <option value="Managed Ad Packages">{t('contact.form.serviceOptions.managed')}</option>
+                    <option value="Account Rentals">{t('contact.form.serviceOptions.rentals')}</option>
+                    <option value="Asset Marketplace">{t('contact.form.serviceOptions.marketplace')}</option>
+                    <option value="Enterprise Solutions">{t('contact.form.serviceOptions.enterprise')}</option>
                   </select>
                 </div>
               </div>
+
+              {status && (
+                <div className={`p-4 rounded-xl text-sm font-bold ${
+                  status.type === 'success' ? 'bg-green-500/10 text-green-500 border border-green-500/20' : 'bg-red-500/10 text-red-500 border border-red-500/20'
+                }`}>
+                  {status.message}
+                </div>
+              )}
+
               <button
-                className="w-full py-5 rounded-2xl bg-primary text-white font-black text-xl hover:bg-orange-600 transition-all shadow-xl shadow-orange-900/40"
+                className="w-full py-5 rounded-2xl bg-primary text-white font-black text-xl hover:bg-orange-600 transition-all shadow-xl shadow-orange-900/40 disabled:opacity-70 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                 type="submit"
+                disabled={loading}
               >
-                {t('contact.form.submit')}
+                {loading ? (
+                  <>
+                    <span className="w-5 h-5 border-2 border-white/20 border-t-white rounded-full animate-spin"></span>
+                    Sending...
+                  </>
+                ) : (
+                  t('contact.form.submit')
+                )}
               </button>
             </form>
           </div>

@@ -2,8 +2,9 @@
   "header": {
     "services": "Dịch vụ",
     "servicesDropdown": {
-      "ads": "Hạ tầng Quảng cáo",
-      "design": "Thiết kế Đồ họa"
+      "rent": "Cho thuê / Bán tài khoản",
+      "campaigns": "Tạo chiến dịch",
+      "design": "Thiết kế"
     },
     "whyPrime": "Tại sao chọn Prime",
     "pricing": "Bảng giá",
