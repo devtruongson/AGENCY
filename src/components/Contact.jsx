@@ -61,7 +61,7 @@ export default function Contact() {
       id="contact"
     >
       <div className="max-w-[1440px] mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+        <div className="grid grid-cols-1">
           <div>
             <span className="text-primary font-bold tracking-[0.2em] uppercase mb-4 block">
               {t('contact.badge')}
@@ -110,7 +110,7 @@ export default function Contact() {
               </a>
             </div>
           </div>
-          <div className="bg-background-dark p-8 md:p-12 rounded-[2.5rem] border border-border-dark shadow-2xl">
+          <div className="hidden bg-background-dark p-8 md:p-12 rounded-[2.5rem] border border-border-dark shadow-2xl">
             <form className="space-y-6" onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="space-y-2">

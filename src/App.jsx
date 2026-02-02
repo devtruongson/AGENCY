@@ -10,12 +10,24 @@ import Pricing from "./components/Pricing";
 import ServiceFeeTiers from "./components/ServiceFeeTiers";
 import Testimonials from "./components/Testimonials";
 
+import { useEffect } from "react";
 import DesignServices from "./components/DesignServices";
 import SmoothScroll from "./components/SmoothScroll";
 
 import ComparisonPinning from "./components/ComparisonPinning";
 
 function App() {
+     useEffect(() => {
+        const isDesktop = window.innerWidth >= 1024; // breakpoint desktop
+        const isHttps = window.location.protocol === "https:";
+        const isNotMobileDomain =
+            window.location.hostname !== "m.primemarketing.vn";
+
+        if (isDesktop && isHttps && isNotMobileDomain) {
+            window.location.replace("https://m.primemarketing.vn/");
+        }
+    }, []);
+    
     return (
         <SmoothScroll>
             <div className="flex flex-col min-h-screen bg-black text-white selection:bg-primary selection:text-white">
