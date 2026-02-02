@@ -18,7 +18,7 @@ import ComparisonPinning from "./components/ComparisonPinning";
 
 function App() {
      useEffect(() => {
-        const isDesktop = window.innerWidth >= 1024; // breakpoint desktop
+        const isDesktop = window.innerWidth <= 1024; // breakpoint desktop
         const isHttps = window.location.protocol === "https:";
         const isNotMobileDomain =
             window.location.hostname !== "m.primemarketing.vn";
