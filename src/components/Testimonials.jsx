@@ -1,33 +1,47 @@
+import { motion, useScroll, useTransform } from 'framer-motion'
+import { useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 
 export default function Testimonials() {
   const { t } = useTranslation()
+  const containerRef = useRef(null)
+  
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ["start end", "end start"]
+  })
+
+  // Parallax transforms for 3 columns
+  const y1 = useTransform(scrollYProgress, [0, 1], [0, -200])
+  const y2 = useTransform(scrollYProgress, [0, 1], [0, -400]) // Faster
+  const y3 = useTransform(scrollYProgress, [0, 1], [0, -100]) // Slower
 
   const allReviews = t('testimonials.reviews', { returnObjects: true })
   
-  // Split reviews into 2 rows
-  const row1 = allReviews.slice(0, 3)
-  const row2 = allReviews.slice(3, 6)
+  // Distribute reviews into 3 columns
+  const col1 = allReviews.filter((_, i) => i % 3 === 0)
+  const col2 = allReviews.filter((_, i) => i % 3 === 1)
+  const col3 = allReviews.filter((_, i) => i % 3 === 2)
 
   const TestimonialCard = ({ testimonial }) => (
-    <div className="flex-shrink-0 w-[400px] mx-4">
-      <div className="bg-background-dark p-8 rounded-[2rem] border border-border-dark hover:border-primary/50 transition-all h-full">
+    <div className="mb-8 break-inside-avoid">
+      <div className="bg-white/5 backdrop-blur-md p-8 rounded-[2rem] border border-white/10 hover:border-primary/50 transition-colors">
         <div className="flex items-center gap-4 mb-6">
-          <div className="relative">
-            <div className="w-14 h-14 rounded-full bg-gradient-to-br from-primary to-secondary-blue flex items-center justify-center text-white font-black text-xl">
+          <div className="relative flex-shrink-0">
+            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-orange-600 flex items-center justify-center text-white font-black text-lg shadow-lg">
               {testimonial.name.charAt(0)}
             </div>
             {testimonial.verified && (
-              <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-primary rounded-full flex items-center justify-center">
-                <span className="material-symbols-outlined text-white text-xs fill-1">
+              <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-black rounded-full flex items-center justify-center border border-white/10">
+                <span className="material-symbols-outlined text-primary text-[10px] fill-1">
                   verified
                 </span>
               </div>
             )}
           </div>
-          <div className="flex-1">
-            <h4 className="text-white font-bold text-lg">{testimonial.name}</h4>
-            <p className="text-secondary-blue text-sm font-medium">
+          <div>
+            <h4 className="text-white font-bold text-base leading-tight">{testimonial.name}</h4>
+            <p className="text-white/40 text-xs font-medium uppercase tracking-wide mt-1">
               {testimonial.role}
             </p>
           </div>
@@ -37,8 +51,8 @@ export default function Testimonials() {
           {[...Array(5)].map((_, i) => (
             <span
               key={i}
-              className={`material-symbols-outlined text-xl ${
-                i < testimonial.rating ? 'text-primary fill-1' : 'text-border-dark'
+              className={`material-symbols-outlined text-lg ${
+                i < testimonial.rating ? 'text-primary fill-1' : 'text-white/10'
               }`}
             >
               star
@@ -46,7 +60,7 @@ export default function Testimonials() {
           ))}
         </div>
         
-        <p className="text-text-secondary leading-relaxed">
+        <p className="text-white/70 leading-relaxed text-sm">
           "{testimonial.text}"
         </p>
       </div>
@@ -54,89 +68,41 @@ export default function Testimonials() {
   )
 
   return (
-    <section className="py-24 md:py-40 px-6 md:px-12 bg-surface-dark/20 overflow-hidden" id="testimonials">
-      <div className="max-w-[1440px] mx-auto mb-20">
-        <div className="text-center">
+    <section ref={containerRef} className="py-24 md:py-40 px-6 md:px-12 bg-black overflow-hidden" id="testimonials">
+      <div className="max-w-[1440px] mx-auto">
+        <div className="text-center mb-32">
           <span className="text-primary font-bold tracking-[0.2em] uppercase mb-4 block">
             {t('testimonials.badge')}
           </span>
           <h2 className="text-white text-4xl md:text-6xl font-black mb-8 leading-tight">
             {t('testimonials.title')}
           </h2>
-          <p className="text-text-secondary text-xl max-w-3xl mx-auto">
+          <p className="text-white/50 text-xl max-w-3xl mx-auto">
             {t('testimonials.subtitle')}
           </p>
         </div>
-      </div>
 
-      {/* Row 1 - Scroll Left to Right */}
-      <div className="relative mb-8">
-        <div className="flex animate-scroll-left">
-          {/* Original cards */}
-          {row1.map((testimonial, index) => (
-            <TestimonialCard key={`row1-${index}`} testimonial={testimonial} />
-          ))}
-          {/* Duplicate for infinite scroll */}
-          {row1.map((testimonial, index) => (
-            <TestimonialCard key={`row1-dup-${index}`} testimonial={testimonial} />
-          ))}
-          {/* Triple for seamless loop */}
-          {row1.map((testimonial, index) => (
-            <TestimonialCard key={`row1-dup2-${index}`} testimonial={testimonial} />
-          ))}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 min-h-[800px]">
+          {/* Column 1 */}
+          <motion.div style={{ y: y1 }}>
+             {col1.map((item, i) => <TestimonialCard key={i} testimonial={item} />)}
+             {/* Repeat for length */}
+             {col1.map((item, i) => <TestimonialCard key={`dup1-${i}`} testimonial={item} />)}
+          </motion.div>
+
+          {/* Column 2 */}
+          <motion.div style={{ y: y2 }} className="pt-20">
+             {col2.map((item, i) => <TestimonialCard key={i} testimonial={item} />)}
+             {col2.map((item, i) => <TestimonialCard key={`dup2-${i}`} testimonial={item} />)}
+          </motion.div>
+          
+          {/* Column 3 */}
+          <motion.div style={{ y: y3 }} className="pt-40">
+             {col3.map((item, i) => <TestimonialCard key={i} testimonial={item} />)}
+             {col3.map((item, i) => <TestimonialCard key={`dup3-${i}`} testimonial={item} />)}
+          </motion.div>
         </div>
       </div>
-
-      {/* Row 2 - Scroll Right to Left */}
-      <div className="relative">
-        <div className="flex animate-scroll-right">
-          {/* Original cards */}
-          {row2.map((testimonial, index) => (
-            <TestimonialCard key={`row2-${index}`} testimonial={testimonial} />
-          ))}
-          {/* Duplicate for infinite scroll */}
-          {row2.map((testimonial, index) => (
-            <TestimonialCard key={`row2-dup-${index}`} testimonial={testimonial} />
-          ))}
-          {/* Triple for seamless loop */}
-          {row2.map((testimonial, index) => (
-            <TestimonialCard key={`row2-dup2-${index}`} testimonial={testimonial} />
-          ))}
-        </div>
-      </div>
-
-      <style jsx>{`
-        @keyframes scroll-left {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-33.333%);
-          }
-        }
-
-        @keyframes scroll-right {
-          0% {
-            transform: translateX(-33.333%);
-          }
-          100% {
-            transform: translateX(0);
-          }
-        }
-
-        .animate-scroll-left {
-          animation: scroll-left 30s linear infinite;
-        }
-
-        .animate-scroll-right {
-          animation: scroll-right 30s linear infinite;
-        }
-
-        .animate-scroll-left:hover,
-        .animate-scroll-right:hover {
-          animation-play-state: paused;
-        }
-      `}</style>
     </section>
   )
 }
