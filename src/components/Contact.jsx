@@ -73,14 +73,14 @@ export default function Contact() {
               {t('contact.subtitle')}
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-              <a className="flex items-center gap-5 group" href="https://t.me/Prime_MarketingPro" target='_blank'>
+              <a className="flex items-center gap-5 group" href="https://t.me/Mr_CuiBap" target='_blank'>
                 <div className="w-14 h-14 rounded-full bg-[#229ED9]/10 flex items-center justify-center text-[#229ED9] group-hover:bg-[#229ED9] group-hover:text-white transition-all">
                   <span className="material-symbols-outlined">send</span>
                 </div>
                 <div>
                   <p className="text-white font-bold">{t('contact.telegramSupport')}</p>
                   <p className="text-text-secondary text-sm">
-                    @Prime_MarketingPro
+                    @Mr_CuiBap
                   </p>
                 </div>
               </a>

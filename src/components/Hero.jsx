@@ -74,7 +74,7 @@ export default function Hero() {
             </span>
           </div>
           
-          <h1 className="text-white text-6xl sm:text-7xl xl:text-8xl font-black leading-[0.9] tracking-tighter mix-blend-screen">
+          <h1 className="text-white text-5xl sm:text-7xl xl:text-8xl font-black leading-[0.9] tracking-tighter mix-blend-screen">
             <span className="block overflow-hidden">
               <motion.span 
                 initial={{ y: "100%" }}
@@ -142,7 +142,7 @@ export default function Hero() {
         {/* 3D Image Container - Floating Object */}
         <div className="perspective-1000 w-full h-full flex items-center justify-center relative pointer-events-none lg:pointer-events-auto">
           <motion.div 
-            className="relative w-full aspect-square max-w-[800px] flex items-center justify-center"
+            className="relative w-full aspect-square max-w-[500px] lg:max-w-[800px] flex items-center justify-center scale-90 md:scale-100"
             style={{ 
               y: imageY,
               rotateX: y,

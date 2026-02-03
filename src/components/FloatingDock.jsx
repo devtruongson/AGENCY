@@ -48,10 +48,10 @@ export default function FloatingDock() {
             {link.icon}
           </span>
           
-          {/* Tooltip */}
+          {/* Tooltip - Desktop Only */}
           {hovered === link.id && (
             <motion.div
-              className="absolute -top-12 left-1/2 -translate-x-1/2 px-3 py-1 bg-black/80 text-white text-xs font-bold rounded-lg border border-white/10 whitespace-nowrap"
+              className="hidden md:block absolute -top-12 left-1/2 -translate-x-1/2 px-3 py-1 bg-black/80 text-white text-xs font-bold rounded-lg border border-white/10 whitespace-nowrap"
               initial={{ opacity: 0, scale: 0.8, y: 10 }}
               animate={{ opacity: 1, scale: 1, y: 0 }}
             >

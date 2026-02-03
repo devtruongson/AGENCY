@@ -74,7 +74,7 @@ export default function ContactModal() {
             {t('contactModal.subtitle')}
           </p>
         </div>
-        <form className="space-y-6" onSubmit={handleSubmit}>
+        <form className="space-y-6 hidden" onSubmit={handleSubmit}>
           <div className="space-y-2">
             <label className="text-sm font-bold text-text-secondary uppercase tracking-wider">
               {t('contactModal.projectDesc')}
@@ -166,14 +166,14 @@ export default function ContactModal() {
             {t('contact.subtitle') ? t('contactModal.orConnectDirectly') || "Hoặc liên hệ trực tiếp" : "Hoặc liên hệ trực tiếp"}
           </p>
            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <a className="flex items-center gap-3 group p-3 rounded-xl hover:bg-white/5 transition-all" href="https://t.me/Prime_MarketingPro" target='_blank'>
+              <a className="flex items-center gap-3 group p-3 rounded-xl hover:bg-white/5 transition-all" href="https://t.me/Mr_CuiBap" target='_blank'>
                 <div className="w-10 h-10 rounded-full bg-[#229ED9]/10 flex items-center justify-center text-[#229ED9] group-hover:bg-[#229ED9] group-hover:text-white transition-all shrink-0">
                   <span className="material-symbols-outlined text-xl">send</span>
                 </div>
                 <div>
                   <p className="text-white font-bold text-sm">{t('contact.telegramSupport')}</p>
                   <p className="text-text-secondary text-xs">
-                    @Prime_MarketingPro
+                    @Mr_CuiBap
                   </p>
                 </div>
               </a>

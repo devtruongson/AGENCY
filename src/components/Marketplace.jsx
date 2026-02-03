@@ -110,7 +110,7 @@ const swiperSettings = {
 }
 
 const Card = ({ children, highlighted = false }) => (
-    <div className={`w-[350px] md:w-[400px] bg-black/80 backdrop-blur-xl border ${highlighted ? 'border-primary shadow-[0_0_50px_rgba(234,88,12,0.2)]' : 'border-white/10'} rounded-[2.5rem] p-10 h-full flex flex-col relative overflow-hidden group hover:border-primary/50 transition-colors`}>
+    <div className={`w-[85vw] max-w-[350px] md:w-[400px] md:max-w-none bg-black/80 backdrop-blur-xl border ${highlighted ? 'border-primary shadow-[0_0_50px_rgba(234,88,12,0.2)]' : 'border-white/10'} rounded-[2.5rem] p-8 md:p-10 h-full flex flex-col relative overflow-hidden group hover:border-primary/50 transition-colors`}>
         {highlighted && <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-transparent via-primary to-transparent" />}
         {children}
     </div>

@@ -17,7 +17,7 @@ export default function ComparisonPinning() {
       <div className="sticky top-0 h-screen flex items-center overflow-hidden">
         
         {/* Horizontal Container */}
-        <motion.div style={{ x }} className="flex gap-10 md:gap-40 px-10 md:px-40 items-center">
+        <motion.div style={{ x }} className="flex gap-10 md:gap-40 px-6 md:px-40 items-center">
           
           {/* Slide 1: Introduction Title */}
           <div className="w-[80vw] h-[80vh] flex-shrink-0 flex items-center justify-center relative">
