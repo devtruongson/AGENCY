@@ -7,7 +7,17 @@ export default function FloatingDock() {
   const [hovered, setHovered] = useState(null)
 
   const links = [
-    { id: 'services', icon: 'grid_view', label: t('header.services'), href: '#services' },
+    { 
+      id: 'services', 
+      icon: 'grid_view', 
+      label: t('header.services'), 
+      href: '#services',
+      subItems: [
+        { label: 'Rent / Sell Accounts', href: '#marketplace' },
+        { label: 'Create Campaigns', href: '#pricing' },
+        { label: 'Design Services', href: '#design-services' }
+      ]
+    },
     { id: 'why', icon: 'psychology', label: t('header.whyPrime'), href: '#comparison' },
     { id: 'pricing', icon: 'payments', label: t('header.pricing'), href: '#pricing' },
     { id: 'contact', icon: 'mail', label: t('header.contact'), href: '#contact' },
@@ -40,23 +50,46 @@ export default function FloatingDock() {
           href={link.href}
           className="relative group p-3 rounded-xl hover:bg-white/10 transition-colors"
           onHoverStart={() => setHovered(link.id)}
-          onHoverEnd={() => setHovered(null)}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
+          onClick={() => setHovered(null)}
         >
           <span className="material-symbols-outlined text-white/80 group-hover:text-white block">
             {link.icon}
           </span>
-          
-          {/* Tooltip - Desktop Only */}
           {hovered === link.id && (
-            <motion.div
-              className="hidden md:block absolute -top-12 left-1/2 -translate-x-1/2 px-3 py-1 bg-black/80 text-white text-xs font-bold rounded-lg border border-white/10 whitespace-nowrap"
-              initial={{ opacity: 0, scale: 0.8, y: 10 }}
-              animate={{ opacity: 1, scale: 1, y: 0 }}
-            >
-              {link.label}
-            </motion.div>
+            link.subItems ? (
+              <motion.div
+               onHoverStart={() => setHovered(link.id)}
+                className="absolute bottom-full left-1/2 -translate-x-1/2 w-48 pb-4 pt-2 z-50" // Removed pointer-events-none so hover works on bridge
+                initial={{ opacity: 0, scale: 0.8, y: 10 }}
+                animate={{ opacity: 1, scale: 1, y: 0 }}
+              >
+                <div className="bg-black/90 backdrop-blur-xl border border-white/10 rounded-xl p-2 shadow-2xl flex flex-col gap-1">
+                    {link.subItems.map((sub, i) => (
+                  <a 
+                    key={i}
+                    href={sub.href}
+                    className="block px-4 py-2 text-sm text-white/80 hover:text-white hover:bg-white/10 rounded-lg whitespace-nowrap text-left"
+                    onClick={(e) => {
+                      e.stopPropagation(); // Prevents bubbling if needed
+                      setHovered(null)
+                    }}
+                  >
+                    {sub.label}
+                  </a>
+                ))}
+                </div>
+              </motion.div>
+            ) : (
+              <motion.div
+                className="hidden md:block absolute -top-12 left-1/2 -translate-x-1/2 px-3 py-1 bg-black/80 text-white text-xs font-bold rounded-lg border border-white/10 whitespace-nowrap"
+                initial={{ opacity: 0, scale: 0.8, y: 10 }}
+                animate={{ opacity: 1, scale: 1, y: 0 }}
+              >
+                {link.label}
+              </motion.div>
+            )
           )}
         </motion.a>
       ))}
