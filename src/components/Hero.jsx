@@ -119,7 +119,7 @@ export default function Hero() {
           <div className="flex flex-wrap gap-5 pt-8">
             <motion.a
               className="flex items-center justify-center rounded-2xl h-16 px-10 bg-white text-black text-xl font-bold shadow-[0_0_40px_-10px_rgba(255,255,255,0.3)] hover:shadow-[0_0_60px_-15px_rgba(255,255,255,0.5)] transition-all cursor-pointer group"
-              href="#pricing"
+              href="#marketplace"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
