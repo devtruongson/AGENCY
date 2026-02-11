@@ -9,6 +9,7 @@ import Marketplace from "./components/Marketplace";
 import Pricing from "./components/Pricing";
 import ServiceFeeTiers from "./components/ServiceFeeTiers";
 import Testimonials from "./components/Testimonials";
+import VerticalNav from "./components/VerticalNav";
 
 import { useEffect } from "react";
 import DesignServices from "./components/DesignServices";
@@ -31,7 +32,10 @@ function App() {
     return (
         <SmoothScroll>
             <div className="flex flex-col min-h-screen bg-black text-white selection:bg-primary selection:text-white">
-                <FloatingDock />
+                <div className="md:hidden">
+                    <FloatingDock />
+                </div>
+                <VerticalNav />
                 <div className="relative z-10 bg-black shadow-2xl rounded-b-[3rem] mb-[500px]">
                     <Hero />
                     <ComparisonPinning />
