@@ -475,6 +475,9 @@
       {
         "name": "David Rodriguez",
         "role": "Media Buyer",
+        "company": "AdScale Pro",
+        "logo": "https://ui-avatars.com/api/?name=AS&background=0D8ABC&color=fff",
+        "image": "https://i.pravatar.cc/150?u=DavidRodriguez",
         "rating": 5,
         "verified": true,
         "text": "Trải nghiệm tuyệt vời! Đội ngũ phản hồi nhanh chóng và giúp chúng tôi tối ưu hóa chiến dịch hiệu quả."
@@ -482,6 +485,9 @@
       {
         "name": "Emma Thompson",
         "role": "Chủ đại lý",
+        "company": "GrowthHive",
+        "logo": "https://ui-avatars.com/api/?name=GH&background=orange&color=fff",
+        "image": "https://i.pravatar.cc/150?u=EmmaThompson",
         "rating": 5,
         "verified": true,
         "text": "Tài khoản đại lý tốt nhất mà tôi từng sử dụng. Không có cấm tài khoản, chi tiêu ổn định và hỗ trợ tuyệt vời 24/7."
@@ -489,6 +495,9 @@
       {
         "name": "James Wilson",
         "role": "Performance Marketer",
+        "company": "ClickFlow",
+        "logo": "https://ui-avatars.com/api/?name=CF&background=333&color=fff",
+        "image": "https://i.pravatar.cc/150?u=JamesWilson",
         "rating": 5,
         "verified": true,
         "text": "Chuyển từ tài khoản thông thường sang tài khoản đại lý cao cấp. ROI được cải thiện 40% nhờ không bị gián đoạn."
@@ -496,6 +505,9 @@
       {
         "name": "Olivia Martinez",
         "role": "Startup Founder",
+        "company": "NovaTech",
+        "logo": "https://ui-avatars.com/api/?name=NT&background=666&color=fff",
+        "image": "https://i.pravatar.cc/150?u=OliviaMartinez",
         "rating": 5,
         "verified": true,
         "text": "Đội ngũ của họ đã giúp chúng tôi mở rộng từ $8k lên $500k chi tiêu hàng tháng mà không có vấn đề gì. Dịch vụ không thể tin được!"
@@ -503,6 +515,9 @@
       {
         "name": "Alexander Kim",
         "role": "Affiliate Marketer",
+        "company": "AffiliateX",
+        "logo": "https://ui-avatars.com/api/?name=AX&background=green&color=fff",
+        "image": "https://i.pravatar.cc/150?u=AlexanderKim",
         "rating": 5,
         "verified": true,
         "text": "Chạy chiến dịch black hat chưa bao giờ dễ dàng đến thế. Tài khoản tuyệt vời, thay thế nhanh và hỗ trợ đáng tin cậy."
@@ -510,6 +525,9 @@
       {
         "name": "Isabella Brown",
         "role": "Brand Manager",
+        "company": "LuxeBrand",
+        "logo": "https://ui-avatars.com/api/?name=LB&background=purple&color=fff",
+        "image": "https://i.pravatar.cc/150?u=IsabellaBrown",
         "rating": 5,
         "verified": true,
         "text": "Chúng tôi đã làm việc với họ trong 2 năm. Chất lượng nhất quán và luôn sẵn sàng khi chúng tôi cần."
@@ -527,5 +545,8 @@
     "handle": "Handle / ID",
     "handlePlaceholder": "@username hoặc số điện thoại",
     "submit": "Kết nối với chuyên gia"
+  },
+  "partners": {
+    "subtitle": "Chúng tôi có hơn 13 năm kinh nghiệm trong lĩnh vực Marketing và quảng cáo, có nhiều giải pháp khắc phục mọi khó khăn khi tài khoản quảng cáo gặp sự cố."
   }
 }

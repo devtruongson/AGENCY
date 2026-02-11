@@ -475,6 +475,9 @@
       {
         "name": "David Rodriguez",
         "role": "Media Buyer",
+        "company": "AdScale Pro",
+        "logo": "https://ui-avatars.com/api/?name=AS&background=0D8ABC&color=fff",
+        "image": "https://i.pravatar.cc/150?u=DavidRodriguez",
         "rating": 5,
         "verified": true,
         "text": "Outstanding experience! The team provides quick responses and helps us optimize our campaigns effectively."
@@ -482,6 +485,9 @@
       {
         "name": "Emma Thompson",
         "role": "Agency Owner",
+        "company": "GrowthHive",
+        "logo": "https://ui-avatars.com/api/?name=GH&background=orange&color=fff",
+        "image": "https://i.pravatar.cc/150?u=EmmaThompson",
         "rating": 5,
         "verified": true,
         "text": "Best agency accounts I've ever used. No more account bans, stable spending, and amazing support 24/7."
@@ -489,6 +495,9 @@
       {
         "name": "James Wilson",
         "role": "Performance Marketer",
+        "company": "ClickFlow",
+        "logo": "https://ui-avatars.com/api/?name=CF&background=333&color=fff",
+        "image": "https://i.pravatar.cc/150?u=JamesWilson",
         "rating": 5,
         "verified": true,
         "text": "Switched from regular accounts and never looked back. ROI improved by 40% thanks to premium agency accounts."
@@ -496,6 +505,9 @@
       {
         "name": "Olivia Martinez",
         "role": "Startup Founder",
+        "company": "NovaTech",
+        "logo": "https://ui-avatars.com/api/?name=NT&background=666&color=fff",
+        "image": "https://i.pravatar.cc/150?u=OliviaMartinez",
         "rating": 5,
         "verified": true,
         "text": "Their team helped us scale from $8k to $500k monthly spend without any issues. Incredible service!"
@@ -503,6 +515,9 @@
       {
         "name": "Alexander Kim",
         "role": "Affiliate Marketer",
+        "company": "AffiliateX",
+        "logo": "https://ui-avatars.com/api/?name=AX&background=green&color=fff",
+        "image": "https://i.pravatar.cc/150?u=AlexanderKim",
         "rating": 5,
         "verified": true,
         "text": "Running black hat campaigns was never this easy. Great accounts, fast replacements, and reliable support."
@@ -510,6 +525,9 @@
       {
         "name": "Isabella Brown",
         "role": "Brand Manager",
+        "company": "LuxeBrand",
+        "logo": "https://ui-avatars.com/api/?name=LB&background=purple&color=fff",
+        "image": "https://i.pravatar.cc/150?u=IsabellaBrown",
         "rating": 5,
         "verified": true,
         "text": "We've been working with them for 2 years now. Consistent quality and always available when we need help."
@@ -527,5 +545,8 @@
     "handle": "Handle / ID",
     "handlePlaceholder": "@username or phone number",
     "submit": "Connect with Expert"
+  },
+  "partners": {
+    "subtitle": "We have +13 years of experience in Marketing and advertising and have many ways to overcome any difficulties when the ad account crashes."
   }
 }

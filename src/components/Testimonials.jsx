@@ -26,25 +26,44 @@ export default function Testimonials() {
   const TestimonialCard = ({ testimonial }) => (
     <div className="mb-8 break-inside-avoid">
       <div className="bg-white/5 backdrop-blur-md p-8 rounded-[2rem] border border-white/10 hover:border-primary/50 transition-colors">
-        <div className="flex items-center gap-4 mb-6">
-          <div className="relative flex-shrink-0">
-            <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-orange-600 flex items-center justify-center text-white font-black text-lg shadow-lg">
-              {testimonial.name.charAt(0)}
+        <div className="flex items-start justify-between mb-6">
+            <div className="flex items-center gap-4">
+            <div className="relative flex-shrink-0">
+                {testimonial.image ? (
+                    <img src={testimonial.image} alt={testimonial.name} className="w-12 h-12 rounded-full object-cover shadow-lg border-2 border-primary/20" />
+                ) : (
+                    <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-orange-600 flex items-center justify-center text-white font-black text-lg shadow-lg">
+                    {testimonial.name.charAt(0)}
+                    </div>
+                )}
+                
+                {testimonial.verified && (
+                <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-black rounded-full flex items-center justify-center border border-white/10">
+                    <span className="material-symbols-outlined text-primary text-[10px] fill-1">
+                    verified
+                    </span>
+                </div>
+                )}
             </div>
-            {testimonial.verified && (
-              <div className="absolute -bottom-1 -right-1 w-5 h-5 bg-black rounded-full flex items-center justify-center border border-white/10">
-                <span className="material-symbols-outlined text-primary text-[10px] fill-1">
-                  verified
-                </span>
-              </div>
+            <div>
+                <h4 className="text-white font-bold text-base leading-tight">{testimonial.name}</h4>
+                <p className="text-white/40 text-xs font-medium uppercase tracking-wide mt-1">
+                {testimonial.role}
+                </p>
+            </div>
+            </div>
+
+            {/* Company Logo/Name Optional */}
+            {testimonial.company && (
+                <div className="hidden sm:flex items-center gap-2 bg-white/5 px-3 py-1.5 rounded-full border border-white/5">
+                    {testimonial.logo ? (
+                         <img src={testimonial.logo} alt={testimonial.company} className="w-5 h-5 rounded-full object-contain opacity-80" />
+                    ) : (
+                        <span className="material-symbols-outlined text-white/40 text-sm">business</span>
+                    )}
+                    <span className="text-white/60 text-[10px] font-bold uppercase tracking-wider">{testimonial.company}</span>
+                </div>
             )}
-          </div>
-          <div>
-            <h4 className="text-white font-bold text-base leading-tight">{testimonial.name}</h4>
-            <p className="text-white/40 text-xs font-medium uppercase tracking-wide mt-1">
-              {testimonial.role}
-            </p>
-          </div>
         </div>
         
         <div className="flex items-center gap-1 mb-4">

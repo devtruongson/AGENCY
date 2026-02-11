@@ -1,12 +1,9 @@
-import ComparisonTable from "./components/ComparisonTable";
-import Contact from "./components/Contact";
 import ContactModal from "./components/ContactModal";
 import FAQ from "./components/FAQ";
 import FloatingDock from "./components/FloatingDock";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Marketplace from "./components/Marketplace";
-import Pricing from "./components/Pricing";
 import ServiceFeeTiers from "./components/ServiceFeeTiers";
 import Testimonials from "./components/Testimonials";
 import VerticalNav from "./components/VerticalNav";
@@ -16,6 +13,8 @@ import DesignServices from "./components/DesignServices";
 import SmoothScroll from "./components/SmoothScroll";
 
 import ComparisonPinning from "./components/ComparisonPinning";
+
+import Partners from "./components/Partners";
 
 function App() {
      useEffect(() => {
@@ -36,23 +35,18 @@ function App() {
                     <FloatingDock />
                 </div>
                 <VerticalNav />
-                <div className="relative z-10 bg-black shadow-2xl rounded-b-[3rem] mb-[500px]">
+                <div className="relative z-10 bg-black shadow-2xl rounded-b-[3rem]">
                     <Hero />
                     <ComparisonPinning />
-                    <ComparisonTable />
-                    <ServiceFeeTiers />
                     <Marketplace />
-                    <Pricing />
+                    <ServiceFeeTiers />
                     <DesignServices />
+                    <Partners />
                     <Testimonials />
                     <FAQ />
-                    <Contact />
-                    <div className="h-20 bg-black rounded-b-[3rem]" />
+                    <ContactModal />
                 </div>
-                <div className="fixed bottom-0 left-0 right-0 z-0 h-[500px]">
-                  <Footer />
-                </div>
-                <ContactModal />
+                <Footer />
             </div>
         </SmoothScroll>
     );
