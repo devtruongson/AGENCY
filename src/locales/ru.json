@@ -128,6 +128,14 @@
     },
     "accounts": {
       "items": [
+                 {
+          "name": "FB Ads - Spent history",
+          "description": "Рекламный аккаунт с историей трат",
+          "options": [
+            { "limit": "Лимит", "price": "$100" },
+            { "limit": "Без лимита", "price": "$150-200" }
+          ]
+        },
         {
           "name": "FB Ads - Share Partner BM",
           "description": "Рекламный аккаунт с общим партнерским BM",

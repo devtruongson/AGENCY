@@ -181,6 +181,14 @@
     },
     "accounts": {
       "items": [
+         {
+          "name": "FB Ads - Spent history",
+          "description": "Ad account sharing partner BM",
+          "options": [
+            { "limit": "Limit", "price": "$100" },
+            { "limit": "Nolimit", "price": "$150-200" }
+          ]
+        },
         {
           "name": "FB Ads - Share Partner BM",
           "description": "Ad account sharing partner BM",

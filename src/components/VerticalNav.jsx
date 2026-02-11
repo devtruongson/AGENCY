@@ -54,7 +54,7 @@ export default function VerticalNav() {
 
   return (
     <motion.div 
-      className="fixed right-8 top-1/2 -translate-y-1/2 z-50 flex flex-col items-center gap-6 hidden md:flex"
+      className="fixed right-8 bottom-[50px] z-50 flex flex-col items-center gap-6 hidden md:flex"
       initial={{ x: 100, opacity: 0 }}
       animate={{ x: 0, opacity: 1 }}
       transition={{ delay: 1, type: "spring" }}
@@ -76,7 +76,7 @@ export default function VerticalNav() {
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.95 }}
                         >
-                        <span className="material-symbols-outlined text-xl">
+                        <span className="material-symbols-outlined text-2xl">
                             {link.icon}
                         </span>
                     </motion.a>
