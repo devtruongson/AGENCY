@@ -15,7 +15,6 @@ const partners = [
    { name: 'Stripe', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Stripe_Logo%2C_revised_2016.svg/1280px-Stripe_Logo%2C_revised_2016.svg.png', width: 80 },
   { name: 'Binance', logo: 'https://brandpalettes.com/wp-content/uploads/2021/03/Binance-Logo.png', width: 100 },
   { name: 'Meta', logo: 'https://static.vecteezy.com/system/resources/previews/055/210/885/non_2x/meta-logo-free-download-meta-logo-free-png.png', width: 90 },
-  { name: 'Google', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.pngg', width: 80 },
   { name: 'TikTok', logo: 'https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/1e2e6ef88378fb5da3a0e2937df4d6d7', width: 90 },
   { name: 'Shopify', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Shopify_logo_2018.svg/960px-Shopify_logo_2018.svg.png', width: 90 },
   
@@ -27,7 +26,6 @@ const partners = [
    { name: 'Stripe', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Stripe_Logo%2C_revised_2016.svg/1280px-Stripe_Logo%2C_revised_2016.svg.png', width: 80 },
   { name: 'Binance', logo: 'https://brandpalettes.com/wp-content/uploads/2021/03/Binance-Logo.png', width: 100 },
   { name: 'Meta', logo: 'https://static.vecteezy.com/system/resources/previews/055/210/885/non_2x/meta-logo-free-download-meta-logo-free-png.png', width: 90 },
-  { name: 'Google', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1280px-Google_2015_logo.svg.pngg', width: 80 },
   { name: 'TikTok', logo: 'https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/1e2e6ef88378fb5da3a0e2937df4d6d7', width: 90 },
   { name: 'Shopify', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Shopify_logo_2018.svg/960px-Shopify_logo_2018.svg.png', width: 90 },
   

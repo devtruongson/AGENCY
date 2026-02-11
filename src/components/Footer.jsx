@@ -5,7 +5,7 @@ export default function Footer() {
   const { t } = useTranslation()
 
   return (
-    <footer className="sticky bottom-0 -z-10 bg-black border-t border-white/10 pt-32 pb-32 px-6 md:px-12 min-h-[500px]">
+    <footer className="sticky bottom-0 z-[0] bg-black border-t border-white/10 pt-32 pb-32 px-6 md:px-12 min-h-[500px]">
       <div className="max-w-[1440px] mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-24">
           <div className="flex flex-col gap-8">
