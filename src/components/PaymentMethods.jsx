@@ -15,9 +15,9 @@ const methods = [
     color: '#50AF95'
   },
   {
-    name: 'Ethereum',
-    symbol: 'ETH',
-    icon: 'https://cdn.worldvectorlogo.com/logos/ethereum-1.svg',
+    name: 'Paypal',
+    symbol: 'PYPL',
+    icon: 'https://companieslogo.com/img/orig/PYPL-3570673e.png?t=1720244493',
     color: '#627EEA'
   },
   {
