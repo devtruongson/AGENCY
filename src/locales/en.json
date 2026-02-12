@@ -429,7 +429,9 @@
     "resources": {
       "title": "Resources",
       "terms": "Terms of Use",
-      "privacy": "Privacy Hub"
+      "privacy": "Privacy Hub",
+      "facebook": "Facebook",
+      "telegram": "Telegram"
     },
     "copyright": "© 2024 Prime Marketing Agency. All rights reserved."
   },
@@ -520,6 +522,46 @@
         "text": "Their team helped us scale from $8k to $500k monthly spend without any issues. Incredible service!"
       },
       {
+        "name": "Michael Chen",
+        "role": "Ecom Scaler",
+        "company": "DropshipKing",
+        "logo": "https://ui-avatars.com/api/?name=DK&background=teal&color=fff",
+        "image": "https://i.pravatar.cc/150?u=MichaelChen",
+        "rating": 5,
+        "verified": true,
+        "text": "Finally a solution that understands high volume dropshipping. No more random bans mid-launch."
+      },
+      {
+        "name": "Sarah Jenkins",
+        "role": "Marketing Director",
+        "company": "BrandLift",
+        "logo": "https://ui-avatars.com/api/?name=BL&background=pink&color=fff",
+        "image": "https://i.pravatar.cc/150?u=SarahJenkins",
+        "rating": 5,
+        "verified": true,
+        "text": "The blue tick verified pages added so much authority to our ads. CTR went up instantly."
+      },
+      {
+        "name": "Roberto Gage",
+        "role": "Media Buyer",
+        "company": "TrafficSource",
+        "logo": "https://ui-avatars.com/api/?name=TS&background=indigo&color=fff",
+        "image": "https://i.pravatar.cc/150?u=RobertoGage",
+        "rating": 5,
+        "verified": true,
+        "text": "Support is actually 24/7. Messaged them at 3 AM on Sunday and got a reply in 5 mins."
+      },
+      {
+        "name": "Elena Volkov",
+        "role": "Affiliate",
+        "company": "CPA Networks",
+        "logo": "https://ui-avatars.com/api/?name=CN&background=red&color=fff",
+        "image": "https://i.pravatar.cc/150?u=ElenaVolkov",
+        "rating": 5,
+        "verified": true,
+        "text": "Running crypto offers is tough, but their accounts hold up incredibly well. Highly recommended."
+      },
+      {
         "name": "Alexander Kim",
         "role": "Affiliate Marketer",
         "company": "AffiliateX",
@@ -528,6 +570,56 @@
         "rating": 5,
         "verified": true,
         "text": "Running black hat campaigns was never this easy. Great accounts, fast replacements, and reliable support."
+      },
+      {
+        "name": "Thomas Wright",
+        "role": "Agency Lead",
+        "company": "WrightDigital",
+        "logo": "https://ui-avatars.com/api/?name=WD&background=blue&color=fff",
+        "image": "https://i.pravatar.cc/150?u=ThomasWright",
+        "rating": 5,
+        "verified": true,
+        "text": "We moved all 50 of our clients here. The management dashboard makes life so much easier."
+      },
+      {
+        "name": "Jessica Lee",
+        "role": "Growth Hacker",
+        "company": "ScaleFast",
+        "logo": "https://ui-avatars.com/api/?name=SF&background=purple&color=fff",
+        "image": "https://i.pravatar.cc/150?u=JessicaLee",
+        "rating": 5,
+        "verified": true,
+        "text": "The unlimited spend accounts are legit. We scaled to $50k/day without a single hiccup."
+      },
+      {
+        "name": "Kevin O'Brien",
+        "role": "Owner",
+        "company": "OB Media",
+        "logo": "https://ui-avatars.com/api/?name=OM&background=orange&color=fff",
+        "image": "https://i.pravatar.cc/150?u=KevinOBrien",
+        "rating": 5,
+        "verified": true,
+        "text": "Stop buying cheap farm accounts. Prime's infrastructure is worth every penny for peace of mind."
+      },
+      {
+        "name": "Amara Patel",
+        "role": "DTC Founder",
+        "company": "GlowSkin",
+        "logo": "https://ui-avatars.com/api/?name=GS&background=pink&color=fff",
+        "image": "https://i.pravatar.cc/150?u=AmaraPatel",
+        "rating": 5,
+        "verified": true,
+        "text": "Lost 3 ad accounts before finding Prime. Haven't had an issue in 6 months since switching."
+      },
+      {
+        "name": "Daniel K.",
+        "role": "Senior Buyer",
+        "company": "ArbitragePro",
+        "logo": "https://ui-avatars.com/api/?name=AP&background=black&color=fff",
+        "image": "https://i.pravatar.cc/150?u=DanielK",
+        "rating": 5,
+        "verified": true,
+        "text": "Their replacement policy is unmatched. If something happens, you're back up in minutes."
       },
       {
         "name": "Isabella Brown",

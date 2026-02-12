@@ -13,18 +13,16 @@ export default function Testimonials() {
 
   // Parallax transforms for 3 columns
   const y1 = useTransform(scrollYProgress, [0, 1], [0, -200])
-  const y2 = useTransform(scrollYProgress, [0, 1], [0, -400]) // Faster
-  const y3 = useTransform(scrollYProgress, [0, 1], [0, -100]) // Slower
 
   const allReviews = t('testimonials.reviews', { returnObjects: true })
   
   // Distribute reviews into 3 columns
-  const col1 = allReviews.filter((_, i) => i % 3 === 0)
-  const col2 = allReviews.filter((_, i) => i % 3 === 1)
-  const col3 = allReviews.filter((_, i) => i % 3 === 2)
+const col1 = allReviews.slice(0, 6)
+
+
 
   const TestimonialCard = ({ testimonial }) => (
-    <div className="mb-8 break-inside-avoid">
+    <div className="mb-2">
       <div className="bg-white/5 backdrop-blur-md p-8 rounded-[2rem] border border-white/10 hover:border-primary/50 transition-colors">
         <div className="flex items-start justify-between mb-6">
             <div className="flex items-center gap-4">
@@ -87,7 +85,7 @@ export default function Testimonials() {
   )
 
   return (
-    <section ref={containerRef} className="py-24 md:py-40 px-6 md:px-12 bg-black overflow-hidden" id="testimonials">
+    <section ref={containerRef} className="py-24 md:py-40 !pb-6 px-6 md:px-12 bg-black overflow-hidden" id="testimonials">
       <div className="max-w-[1440px] mx-auto">
         <div className="text-center mb-32">
           <span className="text-primary font-bold tracking-[0.2em] uppercase mb-4 block">
@@ -101,24 +99,11 @@ export default function Testimonials() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 min-h-[800px]">
-          {/* Column 1 */}
+        <div>
           <motion.div style={{ y: y1 }}>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-5'>
              {col1.map((item, i) => <TestimonialCard key={i} testimonial={item} />)}
-             {/* Repeat for length */}
-             {col1.map((item, i) => <TestimonialCard key={`dup1-${i}`} testimonial={item} />)}
-          </motion.div>
-
-          {/* Column 2 */}
-          <motion.div style={{ y: y2 }} className="pt-20">
-             {col2.map((item, i) => <TestimonialCard key={i} testimonial={item} />)}
-             {col2.map((item, i) => <TestimonialCard key={`dup2-${i}`} testimonial={item} />)}
-          </motion.div>
-          
-          {/* Column 3 */}
-          <motion.div style={{ y: y3 }} className="pt-40">
-             {col3.map((item, i) => <TestimonialCard key={i} testimonial={item} />)}
-             {col3.map((item, i) => <TestimonialCard key={`dup3-${i}`} testimonial={item} />)}
+            </div>
           </motion.div>
         </div>
       </div>

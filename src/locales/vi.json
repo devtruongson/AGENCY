@@ -422,7 +422,9 @@
     "resources": {
       "title": "Tài nguyên",
       "terms": "Điều khoản sử dụng",
-      "privacy": "Trung tâm bảo mật"
+      "privacy": "Trung tâm bảo mật",
+      "facebook": "Facebook",
+      "telegram": "Telegram"
     },
     "copyright": "© 2024 Prime Marketing Agency. Tất cả các quyền được bảo lưu."
   },
@@ -513,6 +515,46 @@
         "text": "Đội ngũ của họ đã giúp chúng tôi mở rộng từ $8k lên $500k chi tiêu hàng tháng mà không có vấn đề gì. Dịch vụ không thể tin được!"
       },
       {
+        "name": "Michael Chen",
+        "role": "Ecom Scaler",
+        "company": "DropshipKing",
+        "logo": "https://ui-avatars.com/api/?name=DK&background=teal&color=fff",
+        "image": "https://i.pravatar.cc/150?u=MichaelChen",
+        "rating": 5,
+        "verified": true,
+        "text": "Cuối cùng cũng tìm được giải pháp hiểu rõ về dropshipping khối lượng lớn. Không còn bị cấm oan giữa chừng nữa."
+      },
+      {
+        "name": "Sarah Jenkins",
+        "role": "Marketing Director",
+        "company": "BrandLift",
+        "logo": "https://ui-avatars.com/api/?name=BL&background=pink&color=fff",
+        "image": "https://i.pravatar.cc/150?u=SarahJenkins",
+        "rating": 5,
+        "verified": true,
+        "text": "Các page tích xanh thực sự tăng uy tín cho quảng cáo của chúng tôi. Tỷ lệ CTR tăng lên ngay lập tức."
+      },
+      {
+        "name": "Roberto Gage",
+        "role": "Media Buyer",
+        "company": "TrafficSource",
+        "logo": "https://ui-avatars.com/api/?name=TS&background=indigo&color=fff",
+        "image": "https://i.pravatar.cc/150?u=RobertoGage",
+        "rating": 5,
+        "verified": true,
+        "text": "Hỗ trợ thực sự là 24/7. Tôi nhắn họ lúc 3 giờ sáng Chủ nhật và nhận được phản hồi trong 5 phút."
+      },
+      {
+        "name": "Elena Volkov",
+        "role": "Affiliate",
+        "company": "CPA Networks",
+        "logo": "https://ui-avatars.com/api/?name=CN&background=red&color=fff",
+        "image": "https://i.pravatar.cc/150?u=ElenaVolkov",
+        "rating": 5,
+        "verified": true,
+        "text": "Chạy các offer crypto rất khó, nhưng tài khoản của họ trụ cực tốt. Rất khuyến khích."
+      },
+      {
         "name": "Alexander Kim",
         "role": "Affiliate Marketer",
         "company": "AffiliateX",
@@ -521,6 +563,56 @@
         "rating": 5,
         "verified": true,
         "text": "Chạy chiến dịch black hat chưa bao giờ dễ dàng đến thế. Tài khoản tuyệt vời, thay thế nhanh và hỗ trợ đáng tin cậy."
+      },
+      {
+        "name": "Thomas Wright",
+        "role": "Agency Lead",
+        "company": "WrightDigital",
+        "logo": "https://ui-avatars.com/api/?name=WD&background=blue&color=fff",
+        "image": "https://i.pravatar.cc/150?u=ThomasWright",
+        "rating": 5,
+        "verified": true,
+        "text": "Chúng tôi đã chuyển tất cả 50 khách hàng sang đây. Dashboard quản lý giúp mọi thứ dễ dàng hơn nhiều."
+      },
+      {
+        "name": "Jessica Lee",
+        "role": "Growth Hacker",
+        "company": "ScaleFast",
+        "logo": "https://ui-avatars.com/api/?name=SF&background=purple&color=fff",
+        "image": "https://i.pravatar.cc/150?u=JessicaLee",
+        "rating": 5,
+        "verified": true,
+        "text": "Tài khoản không giới hạn chi tiêu là hàng thật. Chúng tôi đã scale lên $50k/ngày mà không gặp trở ngại nào."
+      },
+      {
+        "name": "Kevin O'Brien",
+        "role": "Owner",
+        "company": "OB Media",
+        "logo": "https://ui-avatars.com/api/?name=OM&background=orange&color=fff",
+        "image": "https://i.pravatar.cc/150?u=KevinOBrien",
+        "rating": 5,
+        "verified": true,
+        "text": "Đừng mua tài khoản clone rẻ tiền nữa. Cơ sở hạ tầng của Prime đáng giá từng xu để yên tâm làm việc."
+      },
+      {
+        "name": "Amara Patel",
+        "role": "DTC Founder",
+        "company": "GlowSkin",
+        "logo": "https://ui-avatars.com/api/?name=GS&background=pink&color=fff",
+        "image": "https://i.pravatar.cc/150?u=AmaraPatel",
+        "rating": 5,
+        "verified": true,
+        "text": "Tôi đã mất 3 tài khoản quảng cáo trước khi tìm thấy Prime. Chưa gặp vấn đề gì trong 6 tháng kể từ khi chuyển qua."
+      },
+      {
+        "name": "Daniel K.",
+        "role": "Senior Buyer",
+        "company": "ArbitragePro",
+        "logo": "https://ui-avatars.com/api/?name=AP&background=black&color=fff",
+        "image": "https://i.pravatar.cc/150?u=DanielK",
+        "rating": 5,
+        "verified": true,
+        "text": "Chính sách bảo hành thay thế của họ là vô đối. Nếu có vấn đề gì, bạn sẽ được cấp lại trong vài phút."
       },
       {
         "name": "Isabella Brown",

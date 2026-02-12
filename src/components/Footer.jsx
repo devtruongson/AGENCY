@@ -89,6 +89,26 @@ export default function Footer() {
                   {t('footer.resources.privacy')}
                 </a>
               </li>
+              <li>
+                <a
+                  className="text-text-secondary hover:text-primary transition-colors text-base"
+                  href="https://www.facebook.com/CuiBapAgency/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {t('footer.resources.facebook')}
+                </a>
+              </li>
+              <li>
+                <a
+                  className="text-text-secondary hover:text-primary transition-colors text-base"
+                  href="https://t.me/Mr_CuiBap"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {t('footer.resources.telegram')}
+                </a>
+              </li>
             </ul>
           </div>
         </div>
