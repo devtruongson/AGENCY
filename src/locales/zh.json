@@ -128,6 +128,13 @@
     },
     "accounts": {
       "items": [
+          {
+          "name": "FB Ads - Spent history",
+          "description": "广告账户共享合作伙伴BM",
+          "options": [
+           { "limit": "限制 $1000 - 无限制", "price": "$150-200" }
+          ]
+        },
         {
           "name": "FB Ads - 共享合作伙伴BM",
           "description": "广告账户共享合作伙伴BM",

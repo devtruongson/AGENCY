@@ -185,8 +185,7 @@
           "name": "FB Ads - Spent history",
           "description": "Ad account sharing partner BM",
           "options": [
-            { "limit": "Limit", "price": "$100" },
-            { "limit": "Nolimit", "price": "$150-200" }
+            { "limit": "Limit $1000 - Nolimit", "price": "$150-200" }
           ]
         },
         {
