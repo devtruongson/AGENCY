@@ -45,12 +45,7 @@ export default function VerticalNav() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [links])
 
-  const changeLanguage = () => {
-    const langs = ['en', 'ru', 'zh']
-    const currentIndex = langs.indexOf(i18n.language)
-    const nextLang = langs[(currentIndex + 1) % langs.length]
-    i18n.changeLanguage(nextLang)
-  }
+
 
   return (
     <motion.div 
@@ -118,20 +113,30 @@ export default function VerticalNav() {
                             </motion.div>
                          )}
                     </AnimatePresence>
+
                 </div>
             )
           })}
+          {['en', 'ru', 'zh'].map((lang) => (
+            <motion.button
+              key={lang}
+              onClick={() => i18n.changeLanguage(lang)}
+              className={`border relative p-3 rounded-full transition-all duration-300 flex items-center justify-center uppercase text-xs font-bold ${
+                i18n.language === lang
+                  ? 'bg-white text-black border-white shadow-[0_0_10px_rgba(255,255,255,0.5)]'
+                  : 'border-white/10 hover:bg-white/10 text-white/60 hover:text-white'
+              }`}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              {lang}
+            </motion.button>
+          ))}
       </div>
+      
 
       {/* Language Switcher */}
-      <motion.button
-        onClick={changeLanguage}
-        className="w-10 h-10 flex items-center justify-center rounded-full bg-black/40 backdrop-blur-xl border border-white/10 text-white/60 hover:text-white hover:bg-white/10 font-bold uppercase text-xs transition-colors"
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.95 }}
-      >
-        {i18n.language}
-      </motion.button>
+      
       
        {/* App Logo / Home Link at Bottom */}
        <a href="#" className="w-10 h-10 flex items-center justify-center rounded-full bg-primary text-white font-black italic shadow-lg shadow-primary/20 hover:bg-orange-600 transition-colors">
