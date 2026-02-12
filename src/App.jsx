@@ -15,6 +15,7 @@ import SmoothScroll from "./components/SmoothScroll";
 import ComparisonPinning from "./components/ComparisonPinning";
 
 import Partners from "./components/Partners";
+import PaymentMethods from "./components/PaymentMethods";
 
 function App() {
      useEffect(() => {
@@ -43,6 +44,7 @@ function App() {
                     <DesignServices />
                     <Partners />
                     <Testimonials />
+                    <PaymentMethods />
                     <FAQ />
                     <ContactModal />
                 </div>
