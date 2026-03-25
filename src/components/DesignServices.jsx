@@ -129,41 +129,61 @@ export default function DesignServices() {
             </motion.div>
         </div>
 
-        {/* Pricing List */}
-        <div className="max-w-6xl mx-auto">
-            <h3 className="text-white text-2xl font-black mb-12 text-center uppercase">
+        {/* Pricing Grid - Redesigned Compact V4 */}
+        <div className="max-w-[1440px] mx-auto px-4">
+            <h3 className="text-white text-xl md:text-2xl font-black mb-12 text-center uppercase tracking-[0.2em] flex items-center justify-center gap-3">
+                <span className="w-8 h-[1px] bg-primary/40" />
                 {t('designServices.pricing.title')}
+                <span className="w-8 h-[1px] bg-primary/40" />
             </h3>
+            
             <motion.div 
                 variants={containerVariants}
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
-                className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
+                className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6"
             >
                 {priceItems.map((item, index) => (
                     <motion.div 
                         key={index}
                         variants={itemVariants}
                         whileHover={{ 
-                            scale: 1.02,
-                            backgroundColor: 'rgba(255, 255, 255, 0.08)',
-                            borderColor: 'rgba(234, 88, 12, 0.3)'
+                            y: -8,
+                            backgroundColor: 'rgba(255, 255, 255, 0.05)',
                         }}
-                        className="flex justify-between items-center bg-white/5 backdrop-blur-md border border-white/10 px-6 py-5 rounded-2xl transition-all shadow-lg hover:shadow-primary/5 group"
+                        className="relative group h-full bg-white/[0.02] backdrop-blur-xl border border-white/10 rounded-[2rem] rounded-tr-none p-6 md:p-8 transition-all duration-500 hover:border-primary/40 flex flex-col items-center text-center shadow-lg hover:shadow-primary/5 cursor-default"
                     >
-                        <div className="flex items-center gap-4">
-                            <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
-                                <span className="material-symbols-outlined text-primary text-xl">
+                        {/* Top: Minimal Orb */}
+                        <div className="relative mb-6">
+                            <div className="w-14 h-14 rounded-2xl bg-surface-dark border border-white/5 flex items-center justify-center relative group-hover:scale-110 transition-transform duration-500">
+                                <div className="absolute inset-0 bg-primary/5 rounded-2xl blur-lg opacity-0 group-hover:opacity-100 transition-opacity" />
+                                <span className="material-symbols-outlined text-primary text-3xl relative z-10">
                                     {getIcon(item.name)}
                                 </span>
                             </div>
-                            <span className="text-white font-semibold tracking-wide">{item.name}</span>
                         </div>
-                        <div className="flex flex-col items-end">
-                            <span className="text-primary font-black text-lg bg-primary/10 px-4 py-1.5 rounded-xl border border-primary/20 group-hover:bg-primary group-hover:text-white transition-all duration-300 shadow-sm">
-                                {item.price}
-                            </span>
+
+                        {/* Middle: Sleek Name */}
+                        <div className="mb-6 flex-grow flex flex-col items-center">
+                            <h4 className="text-white font-bold text-lg tracking-tight mb-3 group-hover:text-primary transition-colors">
+                                {item.name}
+                            </h4>
+                            <div className="h-0.5 w-8 bg-primary/20 rounded-full group-hover:w-12 group-hover:bg-primary transition-all duration-500" />
+                        </div>
+
+                        {/* Bottom: Compact Price Chip */}
+                        <div className="mt-auto">
+                            <div className="bg-white/5 border border-white/10 px-5 py-2 rounded-xl group-hover:bg-primary/10 group-hover:border-primary/20 transition-all duration-500">
+                                <span className="text-primary font-black text-xl tracking-tight">
+                                    {item.price}
+                                </span>
+                            </div>
+                        </div>
+
+                        {/* Subtle Corner Accents */}
+                        <div className="absolute top-4 right-4 text-primary/10 group-hover:text-primary/30 transition-colors">
+                            <span className="material-symbols-outlined text-sm">filter_vintage</span>
                         </div>
                     </motion.div>
                 ))}
