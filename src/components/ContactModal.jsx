@@ -199,7 +199,7 @@ export default function ContactModal() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <a
                             className="flex items-center gap-3 group p-3 rounded-xl hover:bg-white/5 transition-all"
-                            href="https://t.me/Saitama_Agency"
+                            href="https://t.me/Saitama_Agent"
                             target="_blank"
                         >
                             <div className="w-10 h-10 rounded-full bg-[#229ED9]/10 flex items-center justify-center text-[#229ED9] group-hover:bg-[#229ED9] group-hover:text-white transition-all shrink-0">
@@ -212,7 +212,7 @@ export default function ContactModal() {
                                     {t("contact.telegramSupport")}
                                 </p>
                                 <p className="text-text-secondary text-xs">
-                                    @Saitama_Agency
+                                    @Saitama_Agent
                                 </p>
                             </div>
                         </a>

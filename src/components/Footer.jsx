@@ -100,7 +100,7 @@ export default function Footer() {
                             <li>
                                 <a
                                     className="text-text-secondary hover:text-primary transition-colors text-base"
-                                    href="https://t.me/Saitama_Agency"
+                                    href="https://t.me/Saitama_Agent"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >

@@ -94,7 +94,7 @@ export default function Contact() {
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
                             <a
                                 className="flex items-center gap-5 group"
-                                href="https://t.me/Saitama_Agency"
+                                href="https://t.me/Saitama_Agent"
                                 target="_blank"
                             >
                                 <div className="w-14 h-14 rounded-full bg-[#229ED9]/10 flex items-center justify-center text-[#229ED9] group-hover:bg-[#229ED9] group-hover:text-white transition-all">
@@ -107,7 +107,7 @@ export default function Contact() {
                                         {t("contact.telegramSupport")}
                                     </p>
                                     <p className="text-text-secondary text-sm">
-                                        @Saitama_Agency
+                                        @Saitama_Agent
                                     </p>
                                 </div>
                             </a>
