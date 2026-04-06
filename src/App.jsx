@@ -16,9 +16,10 @@ import ComparisonPinning from "./components/ComparisonPinning";
 
 import Partners from "./components/Partners";
 import PaymentMethods from "./components/PaymentMethods";
+import Pricing from "./components/Pricing";
 
 function App() {
-     useEffect(() => {
+    useEffect(() => {
         const isDesktop = window.innerWidth <= 1024; // breakpoint desktop
         const isHttps = window.location.protocol === "https:";
         const isNotMobileDomain =
@@ -28,7 +29,7 @@ function App() {
             window.location.replace("https://m.primemarketing.vn/");
         }
     }, []);
-    
+
     return (
         <SmoothScroll>
             <div className="flex flex-col min-h-screen bg-black text-white selection:bg-primary selection:text-white">
@@ -40,6 +41,7 @@ function App() {
                     <Hero />
                     <ComparisonPinning />
                     <Marketplace />
+                    <Pricing />
                     <ServiceFeeTiers />
                     <DesignServices />
                     <Partners />
