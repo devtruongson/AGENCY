@@ -232,7 +232,7 @@ export default function ContactModal() {
                                     {t("contact.whatsappBusiness")}
                                 </p>
                                 <p className="text-text-secondary text-xs">
-                                    +84967682097
+                                    +84 96 768 20 97
                                 </p>
                             </div>
                         </a>

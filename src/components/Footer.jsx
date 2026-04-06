@@ -107,6 +107,16 @@ export default function Footer() {
                                     {t("footer.resources.telegram")}
                                 </a>
                             </li>
+                            <li>
+                                <a
+                                    className="text-text-secondary hover:text-primary transition-colors text-base"
+                                    href="https://wa.me/84967682097"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    Whatsapp
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
