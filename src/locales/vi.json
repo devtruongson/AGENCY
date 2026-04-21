@@ -177,7 +177,8 @@
       "bm": "Business Manager",
       "fanpage": "Fanpage",
       "profiles": "Profile",
-      "verification": "Blue Tick"
+      "verification": "Blue Tick",
+      "ai": "AI Tools"
     },
     "accounts": {
       "items": [
@@ -307,6 +308,29 @@
           "features": ["Tick xanh cá nhân", "Tên tùy chỉnh", "Giao trong 2-4 ngày"]
         }
       ]
+    },
+    "ai": {
+      "items": [
+        {
+          "name": "AI tự động viết bài",
+          "description": "Tạo nội dung quảng cáo tự động mỗi tháng",
+          "price": "$250/tháng",
+          "features": ["Viết bài tự động", "Tối ưu sáng tạo", "Tích hợp nhanh"]
+        },
+        {
+          "name": "AI Support BF",
+          "description": "Hỗ trợ chiến dịch Facebook bằng AI",
+          "price": "$400/tháng",
+          "features": ["Đề xuất tối ưu", "Theo dõi hiệu suất", "Hỗ trợ thông minh"]
+        },
+        {
+          "name": "Combo AI Writing + Support",
+          "description": "Hai dịch vụ AI trong 1 gói",
+          "price": "$500/tháng",
+          "features": ["Ghi bài tự động", "Hỗ trợ BF AI", "Tiết kiệm 20%"],
+          "highlighted": true
+        }
+      ]
     }
   },
   "pricing": {
@@ -401,6 +425,7 @@
         "managed": "Gói quảng cáo được quản lý",
         "rentals": "Cho thuê tài khoản",
         "marketplace": "Chợ tài sản",
+        "ai": "Dịch vụ AI",
         "enterprise": "Giải pháp doanh nghiệp"
       },
       "submit": "Yêu cầu truy cập"

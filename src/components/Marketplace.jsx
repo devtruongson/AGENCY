@@ -19,6 +19,7 @@ export default function Marketplace() {
     { id: 'fanpage', label: t('marketplace.tabs.fanpage'), icon: 'groups' },
     { id: 'profiles', label: t('marketplace.tabs.profiles'), icon: 'badge' },
     { id: 'verification', label: t('marketplace.tabs.verification'), icon: 'verified' },
+    { id: 'ai', label: t('marketplace.tabs.ai'), icon: 'smart_toy' },
   ]
 
   return (
@@ -83,6 +84,7 @@ export default function Marketplace() {
                     {activeTab === 'fanpage' && <FanpageCarousel />}
                     {activeTab === 'profiles' && <ProfileCarousel />}
                     {activeTab === 'verification' && <VerificationCarousel />}
+                    {activeTab === 'ai' && <AIToolsCarousel />}
                 </motion.div>
             </AnimatePresence>
         </div>
@@ -277,6 +279,36 @@ function BMCarousel() {
                         {feature}
                     </li>
                     ))}
+                </ul>
+                <OrderButton t={t} />
+             </Card>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    )
+  }
+
+  function AIToolsCarousel() {
+    const { t } = useTranslation()
+    const items = t('marketplace.ai.items', { returnObjects: true })
+
+    return (
+      <Swiper {...swiperSettings}>
+        {items.map((item, index) => (
+          <SwiperSlide key={index} className="!w-auto">
+             <Card highlighted={item.highlighted}>
+                <div className="text-center mb-8">
+                  <span className="text-primary text-5xl font-black block mb-2">{item.price}</span>
+                  <h3 className="text-white text-2xl font-bold">{item.name}</h3>
+                  <p className="text-white/50 text-sm">{item.description}</p>
+                </div>
+                <ul className="space-y-3 mb-10">
+                  {item.features.map((feature, i) => (
+                    <li key={i} className="flex items-center gap-3 text-white/70">
+                      <span className="material-symbols-outlined text-primary text-sm">check_circle</span>
+                      {feature}
+                    </li>
+                  ))}
                 </ul>
                 <OrderButton t={t} />
              </Card>

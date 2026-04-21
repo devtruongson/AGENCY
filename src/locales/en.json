@@ -177,7 +177,8 @@
       "bm": "Business Manager",
       "fanpage": "Fanpages",
       "profiles": "Profiles",
-      "verification": "Blue Tick"
+      "verification": "Blue Tick",
+      "ai": "AI Tools"
     },
     "accounts": {
       "items": [
@@ -314,6 +315,29 @@
           "features": ["Personal blue tick", "Custom name", "2-4 days delivery"]
         }
       ]
+    },
+    "ai": {
+      "items": [
+        {
+          "name": "AI Auto Content",
+          "description": "Automated copywriting for ad campaigns",
+          "price": "$250/mo",
+          "features": ["Auto content generation", "Creative optimization", "Fast integration"]
+        },
+        {
+          "name": "AI Support BF",
+          "description": "Facebook campaign support powered by AI",
+          "price": "$400/mo",
+          "features": ["Smart optimization", "Performance tracking", "AI assistance"]
+        },
+        {
+          "name": "AI Content + Support Combo",
+          "description": "Both AI services bundled together",
+          "price": "$500/mo",
+          "features": ["Auto copywriting", "AI FB support", "Bundle savings"],
+          "highlighted": true
+        }
+      ]
     }
   },
   "pricing": {
@@ -408,6 +432,7 @@
         "managed": "Managed Ad Packages",
         "rentals": "Account Rentals",
         "marketplace": "Asset Marketplace",
+        "ai": "AI Services",
         "enterprise": "Enterprise Solutions"
       },
       "submit": "Request Access"

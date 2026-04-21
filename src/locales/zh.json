@@ -124,7 +124,8 @@
       "bm": "商务管理平台",
       "fanpage": "粉丝页",
       "profiles": "个人资料",
-      "verification": "蓝V认证"
+      "verification": "蓝V认证",
+      "ai": "AI 工具"
     },
     "accounts": {
       "items": [
@@ -261,6 +262,29 @@
           "features": ["个人蓝V", "自定义名称", "2-4天交付"]
         }
       ]
+    },
+    "ai": {
+      "items": [
+        {
+          "name": "AI 自动写文",
+          "description": "每月自动生成广告内容",
+          "price": "$250/月",
+          "features": ["自动写文", "创意优化", "快速集成"]
+        },
+        {
+          "name": "AI Support BF",
+          "description": "AI支持的Facebook活动服务",
+          "price": "$400/月",
+          "features": ["智能优化", "效果跟踪", "AI辅助"]
+        },
+        {
+          "name": "AI 写文+支持组合",
+          "description": "两个AI服务捆绑套餐",
+          "price": "$500/月",
+          "features": ["自动写文", "AI BF 支持", "组合优惠"],
+          "highlighted": true
+        }
+      ]
     }
   },
   "pricing": {
@@ -354,6 +378,7 @@
         "managed": "托管广告套餐",
         "rentals": "账户租赁",
         "marketplace": "资产市场",
+        "ai": "AI 服务",
         "enterprise": "企业解决方案"
       },
       "submit": "请求访问"
