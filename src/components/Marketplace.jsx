@@ -84,7 +84,7 @@ export default function Marketplace() {
                     {activeTab === 'fanpage' && <FanpageCarousel />}
                     {activeTab === 'profiles' && <ProfileCarousel />}
                     {activeTab === 'verification' && <VerificationCarousel />}
-                    {activeTab === 'ai' && <AIToolsCarousel />}
+                    {/* {activeTab === 'ai' && <AIToolsCarousel />} */}
                 </motion.div>
             </AnimatePresence>
         </div>
