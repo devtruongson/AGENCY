@@ -97,7 +97,7 @@ export default function Footer() {
                                     {t("footer.resources.privacy")}
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a
                                     className="text-text-secondary hover:text-primary transition-colors text-base"
                                     href="https://t.me/Saitama_Agent"
@@ -116,7 +116,7 @@ export default function Footer() {
                                 >
                                     Whatsapp
                                 </a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>
