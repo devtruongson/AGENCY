@@ -94,6 +94,25 @@ export default function ContactModal() {
                         {t("contactModal.subtitle")}
                     </p>
                 </div>
+                <a
+                            className="flex items-center gap-3 group p-3 rounded-xl hover:bg-white/5 transition-all"
+                            href="https://t.me/Saitama_Agency_Ads"
+                            target="_blank"
+                        >
+                            <div className="w-10 h-10 rounded-full bg-[#229ED9]/10 flex items-center justify-center text-[#229ED9] group-hover:bg-[#229ED9] group-hover:text-white transition-all shrink-0">
+                                <span className="material-symbols-outlined text-xl">
+                                    send
+                                </span>
+                            </div>
+                            <div>
+                                <p className="text-white font-bold text-sm">
+                                    {t("contactModal.telegram")}
+                                </p>
+                                <p className="text-text-secondary text-xs">
+                                    @Saitama_Agency_Ads
+                                </p>
+                            </div>
+                        </a>
                 <form className="space-y-6 hidden" onSubmit={handleSubmit}>
                     <div className="space-y-2">
                         <label className="text-sm font-bold text-text-secondary uppercase tracking-wider">
