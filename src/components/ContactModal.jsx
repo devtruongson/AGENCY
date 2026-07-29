@@ -189,7 +189,7 @@ export default function ContactModal() {
                     </button>
                 </form>
 
-                <div className="mt-12 pt-12 border-t border-white/10 !hidden">
+                <div className="mt-12 pt-12 border-t border-white/10">
                     <p className="text-white font-bold mb-6 text-center uppercase tracking-wider text-sm">
                         {t("contact.subtitle")
                             ? t("contactModal.orConnectDirectly") ||
@@ -199,7 +199,7 @@ export default function ContactModal() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <a
                             className="flex items-center gap-3 group p-3 rounded-xl hover:bg-white/5 transition-all"
-                            href="https://t.me/Saitama_Agent"
+                            href="https://t.me/Saitama_Agency_Ads"
                             target="_blank"
                         >
                             <div className="w-10 h-10 rounded-full bg-[#229ED9]/10 flex items-center justify-center text-[#229ED9] group-hover:bg-[#229ED9] group-hover:text-white transition-all shrink-0">
@@ -212,12 +212,12 @@ export default function ContactModal() {
                                     {t("contact.telegramSupport")}
                                 </p>
                                 <p className="text-text-secondary text-xs">
-                                    @Saitama_Agent
+                                    @Saitama_Agency_Ads
                                 </p>
                             </div>
                         </a>
                         <a
-                            className="flex items-center gap-3 group p-3 rounded-xl hover:bg-white/5 transition-all"
+                            className="flex items-center gap-3 group p-3 rounded-xl hover:bg-white/5 transition-all  !hidden"
                             href="https://wa.me/84967682097"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -237,7 +237,7 @@ export default function ContactModal() {
                             </div>
                         </a>
                         <a
-                            className="flex items-center gap-3 group p-3 rounded-xl hover:bg-white/5 transition-all sm:col-span-2 sm:w-1/2 sm:mx-auto"
+                            className="flex items-center gap-3 group p-3 rounded-xl hover:bg-white/5 transition-all sm:col-span-2 sm:w-1/2 sm:mx-auto  !hidden"
                             href="mailto:Helloagen1@gmail.com"
                         >
                             <div className="w-10 h-10 rounded-full bg-[#EA4335]/10 flex items-center justify-center text-[#EA4335] group-hover:bg-[#EA4335] group-hover:text-white transition-all shrink-0">
