@@ -208,7 +208,7 @@ export default function ContactModal() {
                     </button>
                 </form>
 
-                <div className="mt-12 pt-12 border-t border-white/10">
+                <div className="mt-12 pt-12 border-t border-white/10 !hidden">
                     <p className="text-white font-bold mb-6 text-center uppercase tracking-wider text-sm">
                         {t("contact.subtitle")
                             ? t("contactModal.orConnectDirectly") ||
